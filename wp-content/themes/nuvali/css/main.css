@@ -1,0 +1,126 @@
+/* --- GENERAL --- */
+body{
+	font-size: 13px; 
+	background: #fff;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	font-family: Arial;
+}
+h1 {
+	color: #67a83d;
+	font-size: 66px;
+}
+
+/* --- HEADER & MAIN NAVIGATION --- */
+.header-wrapper {
+	background: #fff;
+	-webkit-box-shadow: 0px -3px 12px 0px #000;
+	box-shadow: 0px -3px 12px 0px #000;
+	width: 100%;
+	position: fixed;
+}
+.header {
+	height: 108px;
+	width: 91%;
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.main-nav {
+	width: 910px;
+	height: 47%;
+	font-size: 14px;
+	float: left;
+	margin-top: 14px;
+}
+.logo {
+	width: 106px;
+	height: 86px;
+	float: left;
+	display: inline;
+	margin-top: 12px;
+}
+.main-nav ul {
+	width: 100%;
+}
+.main-nav ul li {
+	display: inline;
+	padding: 16px 26px;
+	border-right: 1px solid #ebebeb;
+}
+.main-nav ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #266b46;
+}
+.search {
+	background: #f2f2f2;
+	background-image: url('../img/search.png'); 
+  	background-position:right; 
+  	background-repeat:no-repeat; 
+	-webkit-border-radius: 13px;
+	border-radius: 13px;
+	padding: 6px 6px 6px 10px;
+	border: none;
+	color: #006a3b;
+}
+.social-network {
+	float:right;
+	margin-right: 15px;
+}
+.social-network img,
+.fb-like span {
+	margin-bottom: -9px !important;
+	margin-top: 10px !important;
+}
+.signup {
+	float: right;
+	background: #276b45;
+	margin-top: 8px;
+	margin-right: 3px;
+	padding: 20px;
+	border-radius: 50%;
+	width: 54px;
+	height: 50px;
+	text-align: center;
+}
+.signup a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/* Facebook Like */
+/* make the like button smaller */
+.fb_edge_widget_with_comment iframe
+{
+    width:50px !important;
+}
+
+/* but make the span that holds the comment box larger */
+span.fb_edge_comment_widget.fb_iframe_widget iframe
+{
+    width:401px !important;
+}
+.fb-like span {
+	width: 38px !important;
+}
+
+/* --- MAIN CONTENT --- */
+.main-content {
+	width:100%;
+	float: left;
+}
+/*How We Give Back*/
+.about1 {
+	background: url('../img/about/side-image-upper-left.png') no-repeat;
+	height:1436px;
+}
+.about1-content {
+	margin-top: 100px;
+}
