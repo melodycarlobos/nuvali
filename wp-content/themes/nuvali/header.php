@@ -30,6 +30,17 @@
 
   	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
+<!-- if else stylesheets -->
+<?php if ( is_page('about') ) { ?>
+   <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/uploads/about.css">
+
+<?php } elseif ( is_page('whats-nu') ) { ?>
+    <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/uploads/whats_nu.css">
+
+
+<?php }?>
+
+
 		<!-- wordpress head functions -->
 		<?php wp_head(); ?>
 		<!-- end of wordpress head -->
