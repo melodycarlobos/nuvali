@@ -190,7 +190,8 @@
 			</div>
 		</div>
 			</div> <!-- end #content -->
-
+</body>
+</html>
 
 
 <!--<?php get_footer(); ?>

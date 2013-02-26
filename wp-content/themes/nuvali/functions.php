@@ -32,7 +32,7 @@ require_once('library/bones.php'); // if you remove this, bones will break
 */
 require_once('library/custom-post-type.php'); // you can disable this if you like
 
-require_once('library/events.php');
+//require_once('library/events.php');
 /*
 3. library/admin.php
     - removing some default WordPress dashboard widgets
@@ -163,5 +163,13 @@ function bones_wpsearch($form) {
     return $form;
 } // don't remove this bracket!
 
+
+//jquery
+if (!is_admin()) add_action("wp_enqueue_scripts", "my_jquery_enqueue", 11);
+function my_jquery_enqueue() {
+   wp_deregister_script('jquery');
+   wp_register_script('jquery', "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js", false, null);
+   wp_enqueue_script('jquery');
+}
 
 ?>
