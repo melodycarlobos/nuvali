@@ -352,6 +352,7 @@
 	position:relative;
 	top: -197px;
 	left: -41px;
+	box-shadow: none;
 }
 
 #home-container3-right .share{
