@@ -41,37 +41,23 @@
 
 <?php if ( is_front_page()  ) { ?>
    <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/themes/nuvali/library/css/home.css">
+<script src="http://localhost/nuvali/wp-content/themes/nuvali/library/js/home.js" type="text/javascript"></script>
 
 <?php } elseif ( is_page('about') ) { ?>
    <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/themes/nuvali/library/css/about.css">
    <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/themes/nuvali/library/css/how_to_get_there.css">
       <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/themes/nuvali/library/css/our_heritage.css">
+
 <?php } elseif ( is_page('whats-nu') ) { ?>
     <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/themes/nuvali/library/css/whats_nu.css">
 <script src="http://localhost/nuvali/wp-content/themes/nuvali/library/js/jquery.diyslider.js" type="text/javascript"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-  
-$(".slider").diyslider({
-    width: "850px", // width of the slider
-    height: "85px", // height of the slider
-    display: 3, // number of slides you want it to display at once
-    loop: false // disable looping on slides
-}); // this is all you need!
+<script src="http://localhost/nuvali/wp-content/themes/nuvali/library/js/whatsnu.js" type="text/javascript"></script>
 
-// use buttons to change slide
-$("#go-left").bind("click", function(){
-    // Go to the previous slide
-    $(".slider").diyslider("move", "back");
-});
-$("#go-right").bind("click", function(){
-    // Go to the previous slide
-    $(".slider").diyslider("move", "forth");
-});
-});
-</script>
 <?php } elseif ( is_page('dine-shop') ) { ?>
     <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/themes/nuvali/library/css/dine_and_shop.css">
+
+<?php } elseif ( is_page('invest-in-nuvali') ) { ?>
+    <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/themes/nuvali/library/css/investments.css">
 
 <?php }?>
 

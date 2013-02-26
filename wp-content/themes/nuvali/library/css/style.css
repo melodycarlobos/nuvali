@@ -89,7 +89,7 @@ h5 {
 }
 .search {
   background: #f2f2f2;
-  background-image: url('../img/search.png'); 
+  background-image: url('http://localhost/nuvali/wp-content/themes/nuvali/library/images/search.png'); 
     background-position:right; 
     background-repeat:no-repeat; 
   -webkit-border-radius: 13px;

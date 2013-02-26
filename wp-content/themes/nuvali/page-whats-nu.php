@@ -17,29 +17,29 @@
                     <div class="slider">
                         <div class="months">
                            
-                            <div class="month"><h3 class="text">January</h3></div>
+                            <div id="jan" class="month"><h3 class="text">January</h3></div>
                             <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
-                            <div class="month"><h3 class="text">February</h3></div>
+                            <div id="feb" class="month"><h3 class="text">February</h3></div>
                             <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
-                            <div class="month"><h3 class="text">March</h3></div>
+                            <div id="mar" class="month"><h3 class="text">March</h3></div>
                              <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
-                            <div class="month"><h3 class="text">April</h3></div>
+                            <div id="aprl" class="month"><h3 class="text">April</h3></div>
                              <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
-                            <div class="month"><h3 class="text">May</h3></div>
+                            <div id="may" class="month"><h3 class="text">May</h3></div>
                              <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
-                            <div class="month"><h3 class="text">June</h3></div>
+                            <div id="jun" class="month"><h3 class="text">June</h3></div>
                              <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
-                            <div class="month"><h3 class="text">July</h3></div>
+                            <div id="july" class="month"><h3 class="text">July</h3></div>
                              <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
-                            <div class="month"><h3 class="text">August</h3></div>
+                            <div id="aug" class="month"><h3 class="text">August</h3></div>
                              <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
-                            <div class="month"><h3 class="text">September</h3></div>
+                            <div id="sept" class="month"><h3 class="text">September</h3></div>
                              <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
-                            <div class="month"><h3 class="text">October</h3></div>
+                            <div id="oct" class="month"><h3 class="text">October</h3></div>
                              <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
-                            <div class="month"><h3 class="text">November</h3></div>
+                            <div id="nov" class="month"><h3 class="text">November</h3></div>
                              <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
-                            <div class="month"><h3 class="text">December</h3></div>      
+                            <div id="dec" class="month"><h3 class="text">December</h3></div>      
                         </div>
                     </div>
            
@@ -58,7 +58,7 @@
         </div>
         <div id="whats-nu-content-container">
         	<div id="content">
-
+<div id="showmonth" style="display: none;"></div>
 
         		<!-- Start the Loop. -->
 <?php query_posts('category_name=Events'); ?>
@@ -67,6 +67,7 @@
                 	<div class="content">
                     	<div class="text">
                         	<h2 class="title"><?php the_title(); ?></h2>
+
                         	<?php the_content(); ?>
                         </div>
                         <div class="slider">
