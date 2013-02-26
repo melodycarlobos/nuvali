@@ -12,6 +12,22 @@
 	
 }
 
+#home-container-content #home-upper-nav{
+	width:200px;
+	position:absolute;
+	height: 30px;
+	left: 520px;
+	z-index: 3;
+	top: 394px;
+}
+
+#home-upper-nav .button{
+	position:relative;
+	top:-3px;
+	margin-left:4px;
+	margin-right:4px;
+}
+
 #home-container-content h1{
 	font-size:70px;
 	position:relative;
@@ -58,6 +74,7 @@
 	position:absolute;
 	margin-left:780px;
 	margin-top:80px;
+	z-index:3;
 
 }
 .home-upper-text h4{
