@@ -6,6 +6,7 @@
 			
 				    <div id="main" class="eightcol first clearfix about1-content" role="main">
 
+
 						<div class="title"><h1>How We Give Back</h1></div>
 						<div class="right-content">
 							<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h4>
@@ -126,6 +127,7 @@
 							</div>
 						</div>
 				    </div> <!-- end #main -->    
+
 				</div> <!-- end #inner-content -->
     			<div class="rocks-divider"></div>
     					<div class="about2">

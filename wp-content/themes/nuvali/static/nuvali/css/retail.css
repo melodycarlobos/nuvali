@@ -1,0 +1,202 @@
+.retail-directory-container{
+	width:100%;
+	height:549px;
+	float:left;
+	margin-top:64px;
+}
+
+.retail-directory-container .retail-directory-content{
+	width:1280px;
+	height:inherit;
+	margin:0 auto;
+}
+
+.retail-directory-container img{
+	float:right;
+	position:relative;
+	z-index:2;
+}
+.retail-directory-container .retail-directory-header{
+	position:relative;
+	padding:0;
+	top:14px;
+	color:#32a826;
+	font-weight:bold;
+}
+.retail-directory-container2{
+	width:100%;
+	height:800px;
+	background-color:#32a826;
+	position:relative;
+	float:left;
+	z-index:1;
+
+}
+.retail-directory-container2 .retail-directory-content2{
+	width:1280px;
+	height:inherit;
+	margin:0 auto;
+	overflow:hidden;
+}
+.retail-directory-content2 .retail-div-circle-right{
+	width:70%;
+	height:850px;
+	float:right;
+	background-color:white;
+	position:relative;
+	left:180px;
+	border-radius:50%;
+	overflow: hidden;
+}
+
+
+.retail-div-circle-content{
+	width:40%;
+	left:50px;
+	margin:0 auto;
+	height:auto;
+	position:relative;
+	top:90px;
+}
+
+
+.retail-directory-content2 .retail-span{
+	color:white;
+	font-size:14px;
+}
+
+.retail-directory-content2 select{
+	display:block;
+	margin-top:30px;
+}
+.retail-directory-content2 .retail-div-content-left{
+	width:50%;
+	height:auto;
+	min-height:500px;
+	margin-top:30px;
+	position:absolute;
+}
+
+.retail-directory-container2 .retail-store-list{
+	list-style: none;
+	margin:0;
+	padding:0;
+	width:90%;
+	margin-top:50px;
+}
+
+.retail-directory-container2 .retail-store-list li{
+}
+
+.retail-directory-container2 .retail-store-list li .retail-store-list-container{
+	width:400px;
+	height:auto;
+	margin-left:14px;
+	float:left;
+	margin-bottom:20px;
+}
+
+.retail-directory-container2 .retail-store-list li .retail-store-list-content{
+	float:left;
+	width:70%;
+	height:auto;
+	margin-left:20px;
+}
+
+.retail-directory-container2 .retail-store-list li .retail-store-list-content .title{
+	font-size:14px;
+	color:black;
+	text-transform: none;
+}
+
+.retail-directory-container2 .retail-store-list li .retail-store-list-content span{
+	color:white;
+	text-transform: uppercase;
+	font-size:12px;
+	float:left;
+}
+
+.retail-directory-container2 .retail-store-list li .google-map{
+	margin-left:10px;
+}
+
+
+.retail-directory-container2 .retail-store-list li img{
+	float:left;
+}
+
+
+.retail-directory-container2 .retail-store-list2{
+	list-style: none;
+	margin:0;
+	padding:0;
+	width:90%;
+	margin-top:50px;
+}
+
+.retail-directory-container2 .retail-store-list2 li{
+	margin-bottom:30px;
+}
+
+.retail-directory-container2 .retail-store-list2 li .retail-store-list-container2{
+	width:400px;
+	height:auto;
+	margin-left:14px;
+	float:left;
+	margin-bottom:20px;
+}
+
+.retail-directory-container2 .retail-store-list2 li .retail-store-list-content2{
+	float:left;
+	width:70%;
+	height:auto;
+	margin-left:20px;
+}
+
+.retail-directory-container2 .retail-store-list2 li .retail-store-list-content2 .title2{
+	font-size:14px;
+	color:black;
+	text-transform: none;
+}
+
+.retail-directory-container2 .retail-store-list2 li .retail-store-list-content2 span{
+	color:#606362;
+	text-transform: uppercase;
+	font-size:12px;
+	float:left;
+}
+
+.retail-directory-container2 .retail-store-list2 li .google-map{
+	margin-left:10px;
+}
+
+.retail-directory-container2 .retail-store-list2 li p{
+	margin:22px 0px 0px 0px;
+}
+
+
+.retail-directory-container2 .retail-store-list2 li img{
+	float:left;
+}
+
+#view-more-deals{
+	width:300px;
+	height:auto;
+	margin-top:40px;
+}
+
+#view-more-deals img{
+	float:left;
+	display:inline;
+}
+
+#view-more-deals span{
+	color:#32a826;
+	width:200px;
+	font-weight:bold;
+	font-size:20px;
+	display:inline;
+	position:relative;
+	top:15px;
+	margin-left:10px;
+}
