@@ -1,0 +1,89 @@
+/*-- LAKESIDE -- */
+.lakeside h1 {
+	margin-top: 180px !important;
+	margin-left: 100px !important;
+}
+.lakeside #lakeside-building {
+	float: right;
+	margin-top: -58px;
+}
+.lakeside .top-content {
+	height: 1105px;
+	background: #67a83d;
+	/*width: 100%;*/
+	margin-top: -62px;
+}
+.lakeside .top-content .details,
+.lakeside .bottom-content .details {
+	margin-left: 100px;	
+}
+.lakeside .top-content .details {
+	height: 1000px;
+	width: 58%;
+}
+.lakeside .top-content .details h3,
+.lakeside .bottom-content .details h3 {
+	text-transform: none;
+}
+.lakeside .top-content .details h3 {
+	color: #fff;
+}
+.lakeside .bottom-content .details h3,
+.lakeside .bottom-content .details h4 {
+	color: #67a83d;
+}
+.lakeside .bottom-content .details h4 {
+	color: #67a83d;
+	font-size: 24px;
+	margin-bottom: -5px;
+}
+.lakeside .bottom-content .details h5 {
+	color: #67a83d;
+	font-size: 18px;
+	margin-bottom: -10px;
+	font-weight: normal;
+}
+#divider-flowers {
+	margin-top: -150px;
+	width: 100%;
+}
+.lakeside .bottom-content {
+	margin-top: 100px;
+	color: #67a83d;
+}
+.lakeside #side-picture-bottom {
+	float: right;
+	margin-top: 100px;
+}
+.lakeside .bottom-content .details {
+	width: 52%;
+}
+/*-- end of LAKESIDE -- */
+
+/*-- OFFICES -- */
+.offices #side-picture {
+	margin-top: 40px;
+	float: left;
+}
+.offices .content {
+	float: left;
+	margin-left: -30px;
+	margin-top: 150px;
+	width: 60%;
+}
+.offices .content h4 {
+	margin-bottom: 0;
+}
+/*-- end of OFFICES -- */
+
+/*-- CBD -- */
+.cbd #office {
+	float: right;
+	margin-top: 90px;
+}
+.cbd .content {
+	float: left;
+	width: 50%;
+	margin-left: 55px;
+	margin-top: 60px;
+}
