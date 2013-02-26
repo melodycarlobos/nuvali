@@ -1,12 +1,12 @@
 /* -- ABOUT -- */
 
 /*How We Give Back*/
-.about1 {
+.how-we-give-back {
 	background: url('http://localhost/nuvali/wp-content/uploads/side-image-upper-left.png') no-repeat;
-	background-position: left top;
-	height:1436px;
+	background-position: left -64px;
+	height:1370px;
 }
-.about1-content {
+.top-content {
 	float:left;
 	margin-top: 150px;
 }
@@ -14,7 +14,7 @@
 	margin-left: 490px;
 }
 .right-content {
-	margin-left: 440px;
+	margin-left: 400px;
 }
 .circles {
 	display: block;
@@ -67,8 +67,8 @@
 	font-size: 9px;
 	font-style: italic;
 }
-.rocks-divider {
-	background: url('http://localhost/nuvali/wp-content/uploads/rocks.png');
+#rocks-divider {
+	/*background: url('http://localhost/nuvali/wp-content/uploads/rocks.png') no-repeat;*/
 	width: 100%;
 	height: 91px;
 }
@@ -77,11 +77,11 @@
 	background-position: right bottom;
 	height:1805px;
 }
-.about2-content {
+.bottom-content {
 	float:left;
 }
 .left-content {
-	width: 855px;
+	width: 730px;
 	margin-left: 100px;
 }
 .lp-details p:first-child {

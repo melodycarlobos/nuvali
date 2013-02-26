@@ -35,10 +35,17 @@
 
   	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 		<?php wp_head(); ?>
-<!-- if else stylesheets -->
-<?php if ( is_page('about') ) { ?>
-   <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/themes/nuvali/library/css/about.css">
 
+
+<!--  css/js -->
+
+<?php if ( is_front_page()  ) { ?>
+   <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/themes/nuvali/library/css/home.css">
+
+<?php } elseif ( is_page('about') ) { ?>
+   <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/themes/nuvali/library/css/about.css">
+   <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/themes/nuvali/library/css/how_to_get_there.css">
+      <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/themes/nuvali/library/css/our_heritage.css">
 <?php } elseif ( is_page('whats-nu') ) { ?>
     <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/themes/nuvali/library/css/whats_nu.css">
 <script src="http://localhost/nuvali/wp-content/themes/nuvali/library/js/jquery.diyslider.js" type="text/javascript"></script>
