@@ -5,6 +5,7 @@ Author: Ripple Wave
 
 */
 
+/*=Reset */
 
 
 /* --- GENERAL --- */
@@ -18,9 +19,28 @@ body{
   margin: 0 auto;
   font-family: Arial;
 }
+h1, h2, h3 {
+  text-transform: uppercase;
+}
 h1 {
   color: #67a83d;
   font-size: 66px;
+}
+h2 {
+  color: #1c5936;
+  font-size: 48px;
+}
+h3 {
+  color: #606362;
+  font-size: 38px;
+}
+h4 {
+  color: #007346;
+  font-size: 28px;
+}
+h5 {
+  color: #5d5d5d;
+  font-size: 15px;
 }
 
 /* --- HEADER & MAIN NAVIGATION --- */
@@ -33,17 +53,10 @@ h1 {
 }
 .header {
   height: 108px;
-  width: 91%;
+  width: 1280px;
   display: block;
   margin: 0 auto;
   overflow: hidden;
-}
-.main-nav {
-  width: 910px;
-  height: 47%;
-  font-size: 14px;
-  float: left;
-  margin-top: 14px;
 }
 .logo {
   width: 106px;
@@ -51,6 +64,13 @@ h1 {
   float: left;
   display: inline;
   margin-top: 12px;
+}
+.main-nav {
+  width: 910px;
+  height: 47%;
+  font-size: 14px;
+  float: left;
+  margin-top: 14px;
 }
 .main-nav ul {
   width: 100%;
@@ -68,7 +88,7 @@ h1 {
 }
 .search {
   background: #f2f2f2;
-  background-image: url('../images/search.png'); 
+  background-image: url('../img/search.png'); 
     background-position:right; 
     background-repeat:no-repeat; 
   -webkit-border-radius: 13px;
@@ -79,12 +99,12 @@ h1 {
 }
 .social-network {
   float:right;
-  margin-right: 15px;
+  margin-right: 18px;
 }
 .social-network img,
 .fb-like span {
   margin-bottom: -9px !important;
-  margin-top: 10px !important;
+  margin-top: 8px !important;
 }
 .signup {
   float: right;
@@ -108,7 +128,7 @@ h1 {
 /* make the like button smaller */
 .fb_edge_widget_with_comment iframe
 {
-    width:50px !important;
+    width:54px !important;
 }
 
 /* but make the span that holds the comment box larger */
@@ -125,11 +145,62 @@ span.fb_edge_comment_widget.fb_iframe_widget iframe
   width:100%;
   float: left;
 }
-/*How We Give Back*/
-.about1 {
-  background: url('http://localhost/nuvali/wp-content/uploads/side-image-upper-left.png') no-repeat;
-  height:1436px;
+
+/* -- FOOTER -- */
+
+.footer{
+  width:100%;
+  height:236px;
+  background-color:black;
+  float:left;
+  background:#67a83d url('http://localhost/nuvali/wp-content/uploads/image.png') no-repeat bottom left;
+  overflow:hidden;
 }
-.about1-content {
-  margin-top: 100px;
+.footer .container{
+  width:1280px;
+  height:236px;
+  margin:0 auto;
+}
+.footer .container .group-links-container{
+  width:750px;
+  height:170px;
+  float:left;
+  margin-left:300px;
+  margin-top:40px;
+
+}
+.footer .container .group-links-container span{
+  font-size:10px;
+  margin-left:24px;
+}
+.footer .container .group-links-container{
+
+  color:white;
+}
+.footer .container .group-links-container .group-links{
+  width:200;
+  margin-left:25px;
+  height:inherit;
+  font-size:10px;
+
+  float:left;
+}
+.footer .container .group-links-container .group-links ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.footer .container .group-links-container .group-links ul li{
+  margin-bottom:8px;
+  font-weight:normal;
+}
+.footer .container .group-links-container .group-links .group-links-header{
+  font-weight:bold;
+  font-size:14px;
+}
+.footer .container .logo-trademarks{
+  width:220px;
+  float:left;
+  height:inherit;
+  margin-top:30px;
 }
