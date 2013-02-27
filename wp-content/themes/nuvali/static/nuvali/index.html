@@ -3,6 +3,8 @@
 <head>
 	<title>Nuvali | Home</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/home.js"></script>
 </head>
 <body>
 	<div id="fb-root"></div>
@@ -46,20 +48,35 @@
 			<div id="home-upper-border-left"></div>
 			<div id="home-upper-border-right"></div>
 			<div class="home-upper-image">
-				<img src="http://placehold.it/1240x424p">
-				<div class="home-upper-text">
+				<img src="http://placehold.it/1240x424p" id="1" class="home-upper-slider-image slider-selected">
+				<img src="img/home/test2.png" id="2" class="home-upper-slider-image">
+				<img src="img/home/test3.png" id="3" class="home-upper-slider-image">
+
+				<div class="home-upper-text" id="1">
 					<h4>THIS IS WHERE WILL THE BALANCED LIFE IS LIVED NOW</h4>
 					<div class="home-upper-text-box">
 						<h5>LEARN MORE ABOUT NUVALI</h5>
 					</div>
 				</div>
-				<div id="home-upper-nav">
-					<img src="img/home/left-arrow-nav.png" />
-					<img src="img/home/button-brown.png" class="button" />
-					<img src="img/home/button-brown.png" class="button" />
-					<img src="img/home/button-white.png" class="button" />
-					<img src="img/home/button-brown.png" class="button" />
-					<img src="img/home/right-arrow-nav.png" />
+
+				<div class="home-upper-text" id="2">
+					<h4>THIS IS WHERE WILL THE BALANCED LIFE IS LIVED NOW 2</h4>
+					<div class="home-upper-text-box">
+						<h5>LEARN MORE ABOUT NUVALI</h5>
+					</div>
+				</div>
+				<div class="home-upper-text" id="3">
+					<h4>THIS IS WHERE WILL THE BALANCED LIFE IS LIVED NOW 3</h4>
+					<div class="home-upper-text-box">
+						<h5>LEARN MORE ABOUT NUVALI</h5>
+					</div>
+				</div>
+
+				
+				<div id="home-upper-nav" class="home-upper-nav">
+					<img src="img/home/left-arrow-nav.png" id="home-upper-left-arrow-nav" />
+				
+					<img src="img/home/right-arrow-nav.png" id="home-upper-right-arrow-nav" />
 				</div>
 			</div>
 			<h1>What's Nu?</h1>	
@@ -86,14 +103,14 @@
 						<h3>EVENTS</h3>
 						<div id="content2-nav">
 							<ul>
-								<li class="selected">LIST VIEW</li>
-								<li>CALENDAR</li>
+								<li class="selected list-view-option">LIST VIEW</li>
+								<li class="calendar-option">CALENDAR</li>
 							</ul>
 
 						</div>
 						<div id="content2-content">
 							<div id="content2-content-text">
-								<ul>
+								<ul class="list-view">
 									<li>
 										<span class="date">NOV 12</span><span class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
 									</li>
@@ -114,6 +131,8 @@
 									</li>
 							
 								</ul>
+								<div class="calendar">
+								</div>	
 							</div>
 							<div id="content2-nav2">
 								<img src="img/home/arrow-up.png" id="content2-nav-up"/>
