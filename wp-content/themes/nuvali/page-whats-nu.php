@@ -11,13 +11,38 @@
         </div>
         <div id="whats-nu-header2">
             <div class="container">
-                <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-left.png" class="buttons" />
-                <h3 class="text">January</h3>
-                <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
-                <h3 class="text">February</h3>
-                <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
-                <h3 class="text">March</h3>
-                <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-right.png" class="buttons" />
+            
+                <input type="image"  id="go-left" src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-left.png" class="buttons" />
+ <input id="go-right" type="image" src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-right.png" class="buttonright" />
+                    <div class="slider">
+                        <div class="months">
+                           
+                            <div id="jan" class="month"><h3 class="text">January</h3></div>
+                            <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
+                            <div id="feb" class="month"><h3 class="text">February</h3></div>
+                            <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
+                            <div id="mar" class="month"><h3 class="text">March</h3></div>
+                             <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
+                            <div id="aprl" class="month"><h3 class="text">April</h3></div>
+                             <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
+                            <div id="may" class="month"><h3 class="text">May</h3></div>
+                             <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
+                            <div id="jun" class="month"><h3 class="text">June</h3></div>
+                             <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
+                            <div id="july" class="month"><h3 class="text">July</h3></div>
+                             <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
+                            <div id="aug" class="month"><h3 class="text">August</h3></div>
+                             <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
+                            <div id="sept" class="month"><h3 class="text">September</h3></div>
+                             <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
+                            <div id="oct" class="month"><h3 class="text">October</h3></div>
+                             <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
+                            <div id="nov" class="month"><h3 class="text">November</h3></div>
+                             <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
+                            <div id="dec" class="month"><h3 class="text">December</h3></div>      
+                        </div>
+                    </div>
+           
             </div>    
             
         </div>
@@ -33,7 +58,7 @@
         </div>
         <div id="whats-nu-content-container">
         	<div id="content">
-
+<div id="showmonth" style="display: none;"></div>
 
         		<!-- Start the Loop. -->
 <?php query_posts('category_name=Events'); ?>
@@ -42,6 +67,7 @@
                 	<div class="content">
                     	<div class="text">
                         	<h2 class="title"><?php the_title(); ?></h2>
+
                         	<?php the_content(); ?>
                         </div>
                         <div class="slider">
@@ -81,71 +107,6 @@
         </div>
        
 	</div>
-    <div class="footer">
-        <div class="container">
-           <div class="group-links-container">
-              <div class="group-links">
-                <ul>
-                    <li class="group-links-header">ABOUT</li>
-                    <li>Why Nuvali</li>
-                    <li>How to Get There</li>
-                    <li>Heritage</li>
-                    <li>How We Give Back</li>
-                </ul>
-              </div> 
-              <div class="group-links">
-                 <ul>
-                    <li class="group-links-header">TOUR</li>
-                    <li>Getting Around</li>
-                    <li>Parks and Nature</li>
-                    <li>Sports</li>
-                    <li>Education</li>
-                    <li>Accommodation</li>
-                    <li>Tour Packages</li>
-                </ul>
-              </div> 
-              <div class="group-links">
-                 <ul>
-                    <li class="group-links-header">DINE AND SHOP</li>
-                    <li>Retail Directory</li>
-                    <li>Leasing Opportunities</li>
-                    
-                </ul>
-              </div>
-              <div class="group-links">
-                 <ul>
-                    <li class="group-links-header">WHAT'S NU?</li>
-                    <li>Calendar</li>
-                    <li>Future Developments</li>
-                </ul>
-              </div> 
-              <div class="group-links">
-                 <ul>
-                    <li class="group-links-header">NU LIVING</li>
-                    <li>Residential</li>
-                    <li>Sustainability</li>
-                    <li></li>
-                    <li></li>
-                    <li>Contact Us</li>
-                </ul>
-              </div> 
-              <div class="group-links">
-                 <ul>
-                    <li class="group-links-header">INVEST IN NUVALI</li>
-                    <li>Lakeside Evozone</li>
-                    <li>Offices</li>
-                    <li>Future CBD</li>
-                    <li></li>
-                    <li>Sitemap</li>
-                </ul>
-              </div>
-                <span>Copyright 2010. NUVALI Evoliving, A Project of Ayala Land. All rights reserved. Privacy Policy</span> 
 
-           </div>
-           <div class="logo-trademarks">
-                <img src="http://localhost/nuvali/wp-content/uploads/white-logo.png" />
-           </div>
-        </div>
-    </div>
 
-<!--<?php get_footer(); ?> -->
+<?php get_footer(); ?> 

@@ -1,0 +1,30 @@
+.our-heritage-container{
+	height: 926px;
+	background: #67a83d;
+	margin-top: 155px;
+	display: block;
+}
+.main-title {
+	text-transform: uppercase;
+	float: left;
+	margin-top: -105px;
+	margin-left: -100px;
+}
+.our-heritage-container img {
+	margin-top: -150px;
+	display: inline;
+	float: left;
+}
+.content p {
+	width: 100%;
+}
+.details {
+	width: 60%;
+	float: left;
+	margin-left: 45px;
+	color: #01140c;
+}
+#divider-flowers {
+	margin-bottom: -10px;
+	width: 100%;
+}

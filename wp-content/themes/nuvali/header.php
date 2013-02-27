@@ -8,7 +8,12 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Nuvali | <?php wp_title(''); ?></title>
+		<?php if ( is_front_page()  ) { ?>
+			<title>Nuvali | Home </title>
+			
+		<?php } else  { ?>
+			<title>Nuvali | <?php wp_title(''); ?></title>
+		<?php }?>
 
 		<!-- Google Chrome Frame for IE -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -29,20 +34,35 @@
 		<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/library/images/win8-tile-icon.png">
 
   	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
+		<?php wp_head(); ?>
 
-<!-- if else stylesheets -->
-<?php if ( is_page('about') ) { ?>
-   <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/uploads/about.css">
+
+<!--  css/js -->
+
+<?php if ( is_front_page()  ) { ?>
+   <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/themes/nuvali/library/css/home.css">
+<script src="http://localhost/nuvali/wp-content/themes/nuvali/library/js/home.js" type="text/javascript"></script>
+
+<?php } elseif ( is_page('about') ) { ?>
+   <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/themes/nuvali/library/css/about.css">
+   <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/themes/nuvali/library/css/how_to_get_there.css">
+      <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/themes/nuvali/library/css/our_heritage.css">
 
 <?php } elseif ( is_page('whats-nu') ) { ?>
-    <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/uploads/whats_nu.css">
+    <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/themes/nuvali/library/css/whats_nu.css">
+<script src="http://localhost/nuvali/wp-content/themes/nuvali/library/js/jquery.diyslider.js" type="text/javascript"></script>
+<script src="http://localhost/nuvali/wp-content/themes/nuvali/library/js/whatsnu.js" type="text/javascript"></script>
 
+<?php } elseif ( is_page('dine-shop') ) { ?>
+    <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/themes/nuvali/library/css/dine_and_shop.css">
+
+<?php } elseif ( is_page('invest-in-nuvali') ) { ?>
+    <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/themes/nuvali/library/css/investments.css">
 
 <?php }?>
 
 
 		<!-- wordpress head functions -->
-		<?php wp_head(); ?>
 		<!-- end of wordpress head -->
 
 		<!-- drop Google Analytics Here -->
@@ -60,7 +80,8 @@
 		fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));
 	</script>
-		<div id="container" class="header-wrapper">
+		<div id="container" >
+		<div class="header-wrapper">
 
 			<header class="header" role="banner">
 
