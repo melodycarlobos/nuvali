@@ -1,0 +1,197 @@
+/* --- GENERAL --- */
+body{
+	font-size: 13px; 
+	background: #fff;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	font-family: Arial;
+}
+h1, h2, h3 {
+	text-transform: uppercase;
+}
+h1 {
+	color: #67a83d;
+	font-size: 66px;
+}
+h2 {
+	color: #1c5936;
+	font-size: 48px;
+}
+h3 {
+	color: #606362;
+	font-size: 38px;
+}
+h4 {
+	color: #007346;
+	font-size: 28px;
+}
+h5 {
+	color: #5d5d5d;
+	font-size: 15px;
+}
+
+/* --- HEADER & MAIN NAVIGATION --- */
+.header-wrapper {
+	background: #fff;
+	-webkit-box-shadow: 0px -3px 12px 0px #000;
+	box-shadow: 0px -3px 12px 0px #000;
+	width: 100%;
+	position: fixed;
+	z-index:999;
+}
+.header {
+	height: 108px;
+	width: 1280px;
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo {
+	width: 106px;
+	height: 86px;
+	float: left;
+	display: inline;
+	margin-top: 12px;
+}
+.main-nav {
+	width: 910px;
+	height: 47%;
+	font-size: 14px;
+	float: left;
+	margin-top: 14px;
+}
+.main-nav ul {
+	width: 100%;
+}
+.main-nav ul li {
+	display: inline;
+	padding: 16px 26px;
+	border-right: 1px solid #ebebeb;
+}
+.main-nav ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #266b46;
+}
+.search {
+	background: #f2f2f2;
+	background-image: url('../img/search.png'); 
+  	background-position:right; 
+  	background-repeat:no-repeat; 
+	-webkit-border-radius: 13px;
+	border-radius: 13px;
+	padding: 6px 6px 6px 10px;
+	border: none;
+	color: #006a3b;
+}
+.social-network {
+	float:right;
+	margin-right: 18px;
+}
+.social-network img,
+.fb-like span {
+	margin-bottom: -9px !important;
+	margin-top: 8px !important;
+}
+.signup {
+	float: right;
+	background: #276b45;
+	margin-top: 8px;
+	margin-right: 3px;
+	padding: 20px;
+	border-radius: 50%;
+	width: 54px;
+	height: 50px;
+	text-align: center;
+}
+.signup a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/* Facebook Like */
+/* make the like button smaller */
+.fb_edge_widget_with_comment iframe
+{
+    width:54px !important;
+}
+
+/* but make the span that holds the comment box larger */
+span.fb_edge_comment_widget.fb_iframe_widget iframe
+{
+    width:401px !important;
+}
+.fb-like span {
+	width: 38px !important;
+}
+
+/* --- MAIN CONTENT --- */
+.main-content {
+	width:100%;
+	float: left;
+}
+
+/* -- FOOTER -- */
+
+.footer{
+	width:100%;
+	height:236px;
+	background-color:black;
+	float:left;
+	background:#67a83d url('../img/image.png') no-repeat bottom left;
+	overflow:hidden;
+}
+.footer .container{
+	width:1280px;
+	height:236px;
+	margin:0 auto;
+}
+.footer .container .group-links-container{
+	width:750px;
+	height:170px;
+	float:left;
+	margin-left:300px;
+	margin-top:40px;
+
+}
+.footer .container .group-links-container span{
+	font-size:10px;
+	margin-left:24px;
+}
+.footer .container .group-links-container{
+
+	color:white;
+}
+.footer .container .group-links-container .group-links{
+	width:200;
+	margin-left:25px;
+	height:inherit;
+	font-size:10px;
+
+	float:left;
+}
+.footer .container .group-links-container .group-links ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.footer .container .group-links-container .group-links ul li{
+	margin-bottom:8px;
+	font-weight:normal;
+}
+.footer .container .group-links-container .group-links .group-links-header{
+	font-weight:bold;
+	font-size:14px;
+}
+.footer .container .logo-trademarks{
+	width:220px;
+	float:left;
+	height:inherit;
+	margin-top:30px;
+}

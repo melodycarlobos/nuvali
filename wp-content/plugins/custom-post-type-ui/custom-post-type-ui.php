@@ -1,3 +1,4 @@
+
 <?php
 /*
 Plugin Name: Custom Post Type UI
@@ -1526,4 +1527,3 @@ function disp_boolean($booText) {
 		return 'true';
 	}
 }
-?>

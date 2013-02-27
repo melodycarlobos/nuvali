@@ -1,0 +1,187 @@
+/* What's Nu Header */
+
+.what-nu-content{
+	margin-top:110px;
+}
+#whats-nu-header{
+	width:inherit;
+	height:60px;
+	float:left;
+	padding-bottom:30px;
+	
+}
+#whats-nu-header .container{
+	width:940px;
+	height:inherit;
+	margin:0 auto;
+}
+#whats-nu-header .container h3{
+	text-transform: none;
+	color:black;
+	text-align: center;
+	font-weight: normal;
+}
+#whats-nu-header .container h3.title{
+	font-size:28px;
+	font-weight:normal;
+}
+#whats-nu-header2 .container{
+	width:940px;
+	height:inherit;
+	margin:0 auto;
+
+	z-index:1;
+}
+#whats-nu-header2 .container img{
+
+	z-index:-1;
+}
+#whats-nu-header2 .container .text{
+	float:left;
+	width:297px;
+	color:#67a83d;
+	text-align:center;
+	font-size:25px;
+}
+#whats-nu-header2 .container .divider{
+	float:left;
+	position:relative;
+	top:7px;
+}
+#whats-nu-header2 .container .buttons{
+	float:left;
+	position:relative;
+	top:23px;
+}
+
+#whats-nu-header2 .container .buttonright{
+	float:right;
+	position:relative;
+	top:23px;
+}
+
+#whats-nu-header2{
+	width:inherit;
+	height:85px;
+	float:left;
+}
+#whats-nu-slider-container{
+	width:inherit;
+	height:470px;
+	float:left;
+	background-color:#67a83d;
+	
+}
+#whats-nu-slider-container .container{
+	width:inherit;
+	height:inherit;
+	margin:0 auto;
+}
+#whats-nu-slider-container .container .image_container{
+	width:100%;
+	margin:0 auto;
+	height:inherit;
+}
+#whats-nu-slider-container .container .image_container img{
+	margin:0 auto;
+	height:inherit;
+}
+#whats-nu-slider-container .container .border-left{
+	float:left;
+	height:inherit;
+}
+#whats-nu-slider-container .container .border-right{	
+	float:right;
+	height:inherit;
+}
+#whats-nu-slider-container .container .image{
+	clear:both;
+}
+#whats-nu-content-container{
+	width:inherit;
+	height:auto;
+	float:left;
+}
+#whats-nu-content-container #content{
+	width:940px;
+	height:auto;
+	min-height:400px;
+	margin:0 auto;
+}
+#whats-nu-content-container .event{
+	width:inherit;
+	height:auto;
+	padding-bottom:20px;
+}
+#whats-nu-content-container .event .content{
+	width:866px;
+	margin:0 auto;
+	height:auto;
+	min-height:200px;
+}
+#whats-nu-content-container .event .content .text{
+	text-align:center;
+	font-size:12px;
+}
+#whats-nu-content-container .event .content .slider{
+	width:580px;
+	height:106px;
+	margin:0 auto;
+	margin-top:15px;
+	overflow:hidden;
+}
+#whats-nu-content-container .event .content .slider .pic-object-container{
+	width:518px;
+	height:inherit;
+	overflow:hidden;
+	background-color:black;
+	float:left;
+}
+#whats-nu-content-container .event .content .slider .buttons{
+	width:28px;
+	height:inherit;
+	overflow:hidden;
+	float:left;
+}	
+#whats-nu-event-venues{
+	width:inherit;
+	height:auto;
+	float:left;
+}
+#whats-nu-event-venues .container{
+	width:1280px;
+	height:auto;
+	min-height:300px;
+	margin:0 auto;
+}
+#whats-nu-event-venues .container .image-container{
+	width:50%;
+	height:auto;
+	min-height:500px;
+	background: #ffffff;
+	float:left;
+}
+#whats-nu-event-venues .container .content{
+	width:48%;
+	height:auto;
+	min-height:500px;
+	float:left;
+	padding-left:2%;
+}
+#whats-nu-event-venues .container .content h1{
+	font-weight:bolder;
+	color:#66a83e;
+	font-size:50px;
+}
+#whats-nu-event-venues .container .content h2{
+	color:#6d6d6b;
+	font-weight:bolder;
+	font-size:30px;
+}
+#whats-nu-event-venues .container .content p{
+	width:80%;
+}
+#whats-nu-event-venues .container .content .blend{
+	color:#286c47;
+}
+	
