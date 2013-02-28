@@ -1,16 +1,44 @@
 $(document).ready(function(){
 
+	/* ---- This will add some visibility to the first images on each group image on each slider ---- */
+
 	$('.nu_living-info').each(function(index){
-		console.log(index + ": " + $(this).attr('class').split(' ')[1]);
-		
+		// console.log(index + ": " + $(this).attr('class').split(' ')[1]);
+		$(this).addClass('' + (index+1) + '');
+		console.log($(this).attr('class').split(' ')[1]);
+
+		var $class = $(this).attr('class').split(' ')[1];
+		console.log($class + 'tangina class');
+		var $class_images = $('.nu_living-info.' + $class +  ' .nu_living-info-slider').find('.slider-body-image');
+		var $button_slider = $('.nu_living-info.' + $class +  ' .slider-body').find('.buttons-container');
+
+		$class_images.each(function(index){
+
+			$(this).addClass('' + $class + '');
+			$(this).attr('id', '' + (index+1) + '');
+			$button_slider.append('<div class="button"></div>');
+			$button_slider.children().last().addClass('' + $class + '');
+			$button_slider.children().last().attr('id', '' + (index+1)+ '');
+		});
+
+			
 		$('.nu_living-info-slider').find('.slider-body-image.'+ $(this).attr('class').split(' ')[1] +'').first().addClass('slider-image-selected').css('display', 'block');
+		
+
+
 	});
 
 	
+	/* ---- End  ---- */
 
+
+
+	/* ----- Automatically change the image to next slide every 4 seconds ------*/
+
+	var $interval = 4000 // this could be changed
 	setInterval(function(){
 		nextSlide();
-	},4000);
+	},$interval);
 
 	function nextSlide(){
 
@@ -36,6 +64,10 @@ $(document).ready(function(){
 		
 	}
 
+	/* ---- End setInterval script ----- */
+
+
+	/* ---- Event Script for buttons with a class corresponds to group and id corresponds to each image ---- */
 
 	$('.buttons-container').find('.button').click(function(){
 		var $button_class = $(this).attr('class').split(' ')[1];
@@ -55,6 +87,8 @@ $(document).ready(function(){
 		}
 
 	});
+
+	/* --- End Event Script ---- */
 
 
 });

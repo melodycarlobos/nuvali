@@ -1,3 +1,5 @@
+/* --- Tab Script --- */
+
 $(document).ready(function(){
 	$('#content2-nav li').click(function(){
 		if($(this).hasClass('selected') === false){
@@ -17,13 +19,29 @@ $(document).ready(function(){
 	});
 });
 
-
+/* --- End script --- */
 
 $(function(){
+
+	var $slider_images = $('.home-upper-image').find('.home-upper-slider-image');
+	var $slider_texts = $('.home-upper-image').find('.home-upper-text');
+
+	$slider_images.each(function(index){
+		$(this).attr('id', index + 1);
+	});
+
+	$slider_texts.each(function(index){
+		$(this).attr('id', index + 1);
+	});
+
+	$slider_images.first().addClass('slider-selected');
+
+
 	$('.home-upper-slider-image').each(function(index){
 		console.log(index + ": " + $(this).attr('id'));
 		$('<div class="button"></div>').insertBefore($('#home-upper-nav img:last-child'));
 		$('#home-upper-nav div:nth-last-child(2)').attr('id', $(this).attr('id') );
+
 	});
 
 
@@ -41,8 +59,9 @@ $(function(){
 	}
 
 	$('#home-upper-nav .button').click(function(){
-		var $image_selected = $('.home-upper-image').find("img.slider-selected")
+		var $image_selected = $('.home-upper-image').find("img.slider-selected");
 
+		
 		$('#home-upper-nav').find('.button-selected').css('background-color', '#006a3b');
 		$('#home-upper-nav').find('.button-selected').removeClass('button-selected');
 
@@ -287,6 +306,97 @@ $(function(){
 
 		
 	});
+
+/* ----- Automatically change the image to next slide every 4 seconds ------*/
+
+	launchInterval();
+	
+	function launchInterval(){
+		var $interval = 4000 // this could be changed
+		setInterval(function(){
+			nextSlide();
+		},$interval);
+	}
+
+	function nextSlide(){
+		var $current_slide = $('.home-upper-image').find('.home-upper-slider-image.slider-selected');
+		var $slider_images = $('.home-upper-image').find('.home-upper-slider-image');
+
+		if($current_slide.next().hasClass('home-upper-slider-image') === true ){
+			$current_slide.removeClass('slider-selected');
+			$current_slide.fadeOut('normal', function(){
+				$current_slide.next().fadeIn('normal');
+				$current_slide.next().addClass('slider-selected');
+
+
+
+			});
+
+			var $button = $('#home-upper-nav').find('.button#' + $current_slide.next().attr('id'));
+
+			$('#home-upper-nav').find('.button-selected').css('background-color', '#006a3b');
+			$('#home-upper-nav').find('.button-selected').removeClass('button-selected');
+
+			$($button).addClass('button-selected');
+
+			if($('#home-upper-nav').find('.button-selected').hasClass('button-selected') === true){
+				$('#home-upper-nav').find('.button-selected').css('background-color', 'white');
+			}
+
+			$('.home-upper-image').find('.home-upper-text#' + $current_slide.attr('id')).show('fast',function(){
+				$(this).animate({
+					left: ["1300px", 'swing']
+				},700, function(){
+				$(this).hide();
+				});
+
+			});
+
+			$('.home-upper-image').find('.home-upper-text#' + $current_slide.next().attr('id')).show('fast',function(){
+				$(this).animate({
+					left: ["800px", 'swing']
+				},700);
+
+			});
+		}else{
+			$current_slide.removeClass('slider-selected');
+			$current_slide.fadeOut('normal', function(){
+				$slider_images.first().fadeIn('normal');
+				$slider_images.first().addClass('slider-selected');
+			});
+
+			var $button = $('#home-upper-nav').find('.button#' + $slider_images.first().attr('id'));
+
+			$('#home-upper-nav').find('.button-selected').css('background-color', '#006a3b');
+			$('#home-upper-nav').find('.button-selected').removeClass('button-selected');
+
+			$($button).addClass('button-selected');
+
+			if($('#home-upper-nav').find('.button-selected').hasClass('button-selected') === true){
+				$('#home-upper-nav').find('.button-selected').css('background-color', 'white');
+			}
+
+			$('.home-upper-image').find('.home-upper-text#' + $current_slide.attr('id')).show('fast',function(){
+				$(this).animate({
+					left: ["1300px", 'swing']
+				},700, function(){
+				$(this).hide();
+				});
+
+			});
+
+			$('.home-upper-image').find('.home-upper-text#' + $slider_images.first().attr('id')).show('fast',function(){
+				$(this).animate({
+					left: ["800px", 'swing']
+				},700);
+
+			});
+		}
+	
+	}
+	
+
+	/* ---- End setInterval script ----- */
 
 
 
