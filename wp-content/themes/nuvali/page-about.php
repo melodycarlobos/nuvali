@@ -8,6 +8,7 @@
 
 		<div class="how-to-get-there">
 			<div class="content">
+
 				<h1>How to get There</h1>
 				<div class="details">
 					<p>NUVALI is located in the cities of Sta. Rosa, Calamba and the Municipality of Cabuyao in Laguna, part of the growth corridor of the CALABARZON Region.</p>
@@ -19,6 +20,13 @@
 					Eton City-Greenfield<br/>
 					Silangan<br/>
 					Calamba</p>
+<!-- 
+<?php query_posts('category_name=howtogetthere'); ?>
+<?php if (have_posts()) : while (have_abouts()) : the_post(); ?>
+				<h1><?php the_title(); ?></h1>
+				<div class="details">
+<?php the_content(); ?>
+<?php endwhile; endif; ?>    -->
 
 					<div class="view-google-map">
 						<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/how_to_get_there/google-map-icon.png" width="50px" height="50px">

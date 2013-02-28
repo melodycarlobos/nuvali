@@ -61,6 +61,7 @@
 
 <?php } elseif ( is_page('nu-living') ) { ?>
     <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/themes/nuvali/library/css/nu_living.css">
+    <script src="http://localhost/nuvali/wp-content/themes/nuvali/library/js/jquery.diyslider.js" type="text/javascript"></script>
 <script src="http://localhost/nuvali/wp-content/themes/nuvali/library/js/nu_living.js" type="text/javascript"></script>
 
 <?php } elseif ( is_page('tour') ) { ?>
