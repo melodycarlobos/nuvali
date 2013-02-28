@@ -2,7 +2,7 @@
 
 /*How We Give Back*/
 .how-we-give-back {
-	background: url('http://localhost/nuvali/wp-content/uploads/side-image-upper-left.png') no-repeat;
+	background: url('http://localhost/nuvali/wp-content/themes/nuvali/library/images/about/side-image-upper-left.png') no-repeat;
 	background-position: left -64px;
 	height:1370px;
 }
@@ -73,7 +73,7 @@
 	height: 91px;
 }
 .about2 {
-	background: url('http://localhost/nuvali/wp-content/uploads/side-image-lower-right.png') no-repeat;
+	background: url('http://localhost/nuvali/wp-content/themes/nuvali/library/images/about/side-image-lower-right.png') no-repeat;
 	background-position: right bottom;
 	height:1805px;
 }

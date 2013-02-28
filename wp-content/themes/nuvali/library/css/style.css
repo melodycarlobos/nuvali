@@ -154,7 +154,7 @@ span.fb_edge_comment_widget.fb_iframe_widget iframe
   height:236px;
   background-color:black;
   float:left;
-  background:#67a83d url('http://localhost/nuvali/wp-content/uploads/image.png') no-repeat bottom left;
+  background:#67a83d url('http://localhost/nuvali/wp-content/themes/nuvali/library/images/image.png') no-repeat bottom left;
   overflow:hidden;
 }
 .footer .container{
