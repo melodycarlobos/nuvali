@@ -92,7 +92,7 @@ $(function(){
 
 			$('.home-upper-image').find('.home-upper-text#' + $image_selected.attr('id')).show('fast',function(){
 				$(this).animate({
-					left: ["1300px", 'swing']
+					left: ["1600px", 'swing']
 				},700, function(){
 				$(this).hide();
 				});
@@ -157,7 +157,7 @@ $(function(){
 
 			$('.home-upper-image').find('.home-upper-text#' + $image_selected.attr('id')).show('fast',function(){
 				$(this).animate({
-					left: ["1300px", 'swing']
+					left: ["1600px", 'swing']
 				},700, function(){
 				$(this).hide();
 				});
@@ -203,7 +203,7 @@ $(function(){
 
 			$('.home-upper-image').find('.home-upper-text#' + $image_selected.attr('id')).show('fast',function(){
 				$(this).animate({
-					left: ["1300px", 'swing']
+					left: ["1600px", 'swing']
 				},700, function(){
 				$(this).hide();
 				});
@@ -254,7 +254,7 @@ $(function(){
 
 			$('.home-upper-image').find('.home-upper-text#' + $image_selected.attr('id')).show('fast',function(){
 				$(this).animate({
-					left: ["1300px", 'swing']
+					left: ["1600px", 'swing']
 				},700, function(){
 				$(this).hide();
 				});
@@ -299,7 +299,7 @@ $(function(){
 
 			$('.home-upper-image').find('.home-upper-text#' + $image_selected.attr('id')).show('fast',function(){
 				$(this).animate({
-					left: ["1300px", 'swing']
+					left: ["1600px", 'swing']
 				},700, function(){
 				$(this).hide();
 				});
@@ -356,7 +356,7 @@ $(function(){
 
 			$('.home-upper-image').find('.home-upper-text#' + $current_slide.attr('id')).show('fast',function(){
 				$(this).animate({
-					left: ["1300px", 'swing']
+					left: ["1600px", 'swing']
 				},700, function(){
 				$(this).hide();
 				});
@@ -389,7 +389,7 @@ $(function(){
 
 			$('.home-upper-image').find('.home-upper-text#' + $current_slide.attr('id')).show('fast',function(){
 				$(this).animate({
-					left: ["1300px", 'swing']
+					left: ["1600px", 'swing']
 				},700, function(){
 				$(this).hide();
 				});
