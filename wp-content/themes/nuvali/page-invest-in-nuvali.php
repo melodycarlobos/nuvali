@@ -8,7 +8,7 @@
 
 					   
 		<div class="lakeside">
-            <img id="lakeside-building" src="http://localhost/nuvali/wp-content/uploads/lakeside-building.png">
+            <img id="lakeside-building" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_investments/lakeside-building.png">
             <h1>Lakeside Evozone</h1>
             <div class="top-content">
                 <div class="details">
@@ -32,10 +32,10 @@
 
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nisl leo, lacinia et consectetur id, aliquam at metus. Pellentesque at est est, consectetur pellentesque nibh. Nunc condimentum orci nec lorem lacinia mattis. Sed id vestibulum velit. Nullam molestie risus sed nulla venenatis molestie. Integer a risus ipsum. Sed arcu eros, luctus ut ornare et, gravida eget nunc. Cras et enim libero. Cras sed turpis ac lorem consectetur congue.</p>
                 </div>
-                <img id="divider-flowers" src="http://localhost/nuvali/wp-content/uploads/divider-flowers.png">
+                <img id="divider-flowers" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_investments/divider-flowers.png">
             </div>
 
-            <img id="side-picture-bottom" src="http://localhost/nuvali/wp-content/uploads/side-picture-bottom.png">
+            <img id="side-picture-bottom" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_investments/side-picture-bottom.png">
             <div class="bottom-content">
                 <div class="details">
                     <br/><br/>
@@ -107,7 +107,7 @@
             </div>
         </div>
         <div class="offices">
-            <img id="side-picture" src="http://localhost/nuvali/wp-content/uploads/side-picture.png">
+            <img id="side-picture" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_investments/side-picture.png">
             <div class="content">
                 <h1>Office Building</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nisl leo, lacinia et consectetur id, aliquam at metus. Pellentesque at est est, consectetur pellentesque nibh. Nunc condimentum orci nec lorem lacinia mattis. Sed id vestibulum velit. Nullam molestie risus sed nulla venenatis molestie. Integer a risus ipsum. Sed arcu eros, luctus ut ornare et, gravida eget nunc. Cras et enim libero. Cras sed turpis ac lorem consectetur congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nisl leo, lacinia et consectetur id, aliquam at metus. Pellentesque at est est, consectetur pellentesque nibh. Nunc condimentum orci nec lorem lacinia mattis. Sed id vestibulum velit. Nullam molestie risus sed nulla venenatis molestie. Integer a risus ipsum. Sed arcu eros, luctus ut ornare et, gravida eget nunc. Cras et enim libero. Cras sed turpis ac lorem consectetur congue.</p>
@@ -122,7 +122,7 @@
             </div>
         </div>
         <div class="cbd">
-            <img id="office" src="http://localhost/nuvali/wp-content/uploads/picture.png">
+            <img id="office" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_investments/picture.png">
             <div class="content">
                 <h1>FUTURE CBD</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nisl leo, lacinia et consectetur id, aliquam at metus. Pellentesque at est est, consectetur pellentesque nibh. Nunc condimentum orci nec lorem lacinia mattis. Sed id vestibulum velit. Nullam molestie risus sed nulla venenatis molestie. Integer a risus ipsum. Sed arcu eros, luctus ut ornare et, gravida eget nunc. Cras et enim libero. Cras sed turpis ac lorem consectetur congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>

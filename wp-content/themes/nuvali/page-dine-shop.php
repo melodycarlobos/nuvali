@@ -6,7 +6,7 @@
 			
 		<div id="main" class="eightcol first clearfix" role="main">
 			<div class="main-content retail-directory-container">
-        <img src="http://localhost/nuvali/wp-content/uploads/upper-image.png" />
+        <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/dine_and_shop/upper-image.png" />
         <div class="retail-directory-content">
             <br />
             <br />
@@ -45,95 +45,95 @@
                 <ul class="retail-store-list">
                     <li>
                         <div class="retail-store-list-container">
-                            <img src="http://localhost/nuvali/wp-content/uploads/food-icon.png" />
+                            <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/dine_and_shop/food-icon.png" />
                             <div class="retail-store-list-content">
                                     <span class="title">Yellow Cab Pizza Co.</span><br />
                                     <span>04-567-90</span><br />
                                     <span>Ground level, One Evotech</span>
-                                    <img src="http://localhost/nuvali/wp-content/uploads/google-map-icon.png" class="google-map"/>
+                                    <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/dine_and_shop/google-map-icon.png" class="google-map"/>
                             </div>
                         </div>
                     </li>
 
                     <li>
                         <div class="retail-store-list-container">
-                            <img src="http://localhost/nuvali/wp-content/uploads/entertainment-icon.png" />
+                            <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/dine_and_shop/entertainment-icon.png" />
                             <div class="retail-store-list-content">
                                     <span class="title">Yellow Cab Pizza Co.</span><br />
                                     <span>04-567-90</span><br />
                                     <span>Ground level, One Evotech</span>
-                                    <img src="http://localhost/nuvali/wp-content/uploads/google-map-icon.png" class="google-map"/>
+                                    <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/dine_and_shop/google-map-icon.png" class="google-map"/>
                             </div>
                         </div>
                     </li>
 
                     <li>
                         <div class="retail-store-list-container">
-                            <img src="http://localhost/nuvali/wp-content/uploads/entertainment-icon.png" />
+                            <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/dine_and_shop/entertainment-icon.png" />
                             <div class="retail-store-list-content">
                                     <span class="title">Timezone</span><br />
                                     <span>(049) 302-0103/ 0927-276-1495</span><br />
                                     <span>Ground level, One Evotech</span>
-                                    <img src="http://localhost/nuvali/wp-content/uploads/google-map-icon.png" class="google-map"/>
+                                    <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/dine_and_shop/google-map-icon.png" class="google-map"/>
                             </div>
                         </div>
                     </li>
 
                     <li>
                         <div class="retail-store-list-container">
-                            <img src="http://localhost/nuvali/wp-content/uploads/fashion-icon.png" />
+                            <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/dine_and_shop/fashion-icon.png" />
                             <div class="retail-store-list-content">
                                     <span class="title">Yellow Cab Pizza Co.</span><br />
                                     <span>04-567-90</span><br />
                                     <span>Ground level, One Evotech</span>
-                                    <img src="http://localhost/nuvali/wp-content/uploads/google-map-icon.png" class="google-map"/>
+                                    <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/dine_and_shop/google-map-icon.png" class="google-map"/>
                             </div>
                         </div>
                     </li>
 
                     <li>
                         <div class="retail-store-list-container">
-                            <img src="http://localhost/nuvali/wp-content/uploads/entertainment-icon.png" />
+                            <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/dine_and_shop/entertainment-icon.png" />
                             <div class="retail-store-list-content">
                                     <span class="title">Timezone</span><br />
                                     <span>(049) 302-0103/ 0927-276-1495</span><br />
                                     <span>Ground level, One Evotech</span>
-                                    <img src="http://localhost/nuvali/wp-content/uploads/google-map-icon.png" class="google-map"/>
+                                    <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/dine_and_shop/google-map-icon.png" class="google-map"/>
                             </div>
                         </div>
                     </li>
 
                     <li>
                         <div class="retail-store-list-container">
-                            <img src="http://localhost/nuvali/wp-content/uploads/fashion-icon.png" />
+                            <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/dine_and_shop/fashion-icon.png" />
                             <div class="retail-store-list-content">
                                     <span class="title">Yellow Cab Pizza Co.</span><br />
                                     <span>04-567-90</span><br />
                                     <span>Ground level, One Evotech</span>
-                                    <img src="http://localhost/nuvali/wp-content/uploads/google-map-icon.png" class="google-map"/>
+                                    <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/dine_and_shop/google-map-icon.png" class="google-map"/>
                             </div>
                         </div>
                     </li>
                     <li>
                         <div class="retail-store-list-container">
-                            <img src="http://localhost/nuvali/wp-content/uploads/entertainment-icon.png" />
+                            <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/dine_and_shop/entertainment-icon.png" />
                             <div class="retail-store-list-content">
                                     <span class="title">Timezone</span><br />
                                     <span>(049) 302-0103/ 0927-276-1495</span><br />
                                     <span>Ground level, One Evotech</span>
-                                    <img src="http://localhost/nuvali/wp-content/uploads/google-map-icon.png" class="google-map"/>
+                                    <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/dine_and_shop/google-map-icon.png" class="google-map"/>
                             </div>
                         </div>
                     </li>
 
                     <li>
                         <div class="retail-store-list-container">
-                            <img src="http://localhost/nuvali/wp-content/uploads/fashion-icon.png" />
+                            <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/dine_and_shop/fashion-icon.png" />
                             <div class="retail-store-list-content">
                                     <span class="title">Yellow Cab Pizza Co.</span><br />
                                     <span>04-567-90</span><br />
                                     <span>Ground level, One Evotech</span>
-                                    <img src="http://localhost/nuvali/wp-content/uploads/google-map-icon.png" class="google-map"/>
+                                    <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/dine_and_shop/google-map-icon.png" class="google-map"/>
                             </div>
                         </div>
                     </li>
@@ -147,12 +147,12 @@
                     <ul class="retail-store-list2">
                         <li>
                             <div class="retail-store-list-container2">
-                                <img src="http://localhost/nuvali/wp-content/uploads/food-icon.png" />
+                                <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/dine_and_shop/food-icon.png" />
                                 <div class="retail-store-list-content2">
                                         <span class="title2">Yellow Cab Pizza Co.</span><br />
                                         <span>04-567-90</span><br />
                                         <span>Ground level, One Evotech</span>
-                                        <img src="http://localhost/nuvali/wp-content/uploads/google-map-icon.png" class="google-map"/>
+                                        <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/dine_and_shop/google-map-icon.png" class="google-map"/>
                                 </div>
 
                             </div>
@@ -160,24 +160,24 @@
                         </li>
                         <li>
                             <div class="retail-store-list-container2">
-                                <img src="http://localhost/nuvali/wp-content/uploads/food-icon.png" />
+                                <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/dine_and_shop/food-icon.png" />
                                 <div class="retail-store-list-content2">
                                         <span class="title2">Yellow Cab Pizza Co.</span><br />
                                         <span>04-567-90</span><br />
                                         <span>Ground level, One Evotech</span>
-                                        <img src="http://localhost/nuvali/wp-content/uploads/google-map-icon.png" class="google-map"/>
+                                        <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/dine_and_shop/google-map-icon.png" class="google-map"/>
                                 </div>
                             </div>
                             <p>"Free slice of pizza for every single receipt purchase of food and drinks worth P2,000 and up!"</p>
                         </li>
                         <li>
                             <div class="retail-store-list-container2">
-                                <img src="http://localhost/nuvali/wp-content/uploads/food-icon.png" />
+                                <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/dine_and_shop/food-icon.png" />
                                 <div class="retail-store-list-content2">
                                         <span class="title2">Yellow Cab Pizza Co.</span><br />
                                         <span>04-567-90</span><br />
                                         <span>Ground level, One Evotech</span>
-                                        <img src="http://localhost/nuvali/wp-content/uploads/google-map-icon.png" class="google-map"/>
+                                        <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/dine_and_shop/google-map-icon.png" class="google-map"/>
                                 </div>
                             </div>
                             <p>"Free slice of pizza for every single receipt purchase of food and drinks worth P2,000 and up!"</p>
@@ -185,7 +185,7 @@
                     </ul>  
 
                     <div id="view-more-deals">
-                        <img src="http://localhost/nuvali/wp-content/uploads/shop-icon.png" />
+                        <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/dine_and_shop/shop-icon.png" />
                         <span>VIEW MORE DEALS</span>
                     </div>
 

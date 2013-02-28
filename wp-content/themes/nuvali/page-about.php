@@ -21,7 +21,7 @@
 					Calamba</p>
 
 					<div class="view-google-map">
-						<img src="http://localhost/nuvali/wp-content/uploads/google-map-icon2.png" width="50px" height="50px">
+						<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/how_to_get_there/google-map-icon.png" width="50px" height="50px">
 						<div>View Google Maps</div>
 					</div>
 				</div>
@@ -30,7 +30,7 @@
 					<div class="left">
 						<ul>
 							<li class="schedule-list">
-								<img src="http://localhost/nuvali/wp-content/uploads/bus-thumb.png">
+								<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/how_to_get_there/bus-thumb.png">
 								<div class="left-sched">
 									<span>BUS</span>
 									<div class="day first">Mondays to Fridays</div>
@@ -50,7 +50,7 @@
 								</div>
 							</li>
 							<li class="schedule-list">
-								<img src="http://localhost/nuvali/wp-content/uploads/van-thumb.png">
+								<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/how_to_get_there/van-thumb.png">
 								<div class="left-sched">
 									<span>VANS</span>
 									<div class="day first">Mondays to Sundays</div>
@@ -64,7 +64,7 @@
 								</div>
 							</li>
 							<li class="schedule-list">
-								<img src="http://localhost/nuvali/wp-content/uploads/bus2-thumb.png">
+								<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/how_to_get_there/bus2-thumb.png">
 								<div class="left-sched">
 									<span>JEEPNEYS</span>
 									<div class="day first">Mondays to Sundays</div>
@@ -94,7 +94,7 @@
 					</div>
 				</div>
 			</div>
-			<img id="side-image" src="http://localhost/nuvali/wp-content/uploads/side-image.png">
+			<img id="side-image" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/how_to_get_there/side-image.png">
 		</div>
 		<div class="how-we-give-back">
 			<div class="top-content">
@@ -104,19 +104,19 @@
 					<div class="circles">
 						<div>
 							<div class="active programs">T.R.E.E. Programs</div><br/>
-							<img src="http://localhost/nuvali/wp-content/uploads/header_photo_1.png" width="141px" height="141px">
+							<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/about/header_photo_1.png" width="141px" height="141px">
 						</div>
 						<div>
 							<div class="active programs">Livelihood Programs</div><br/>
-							<img src="http://localhost/nuvali/wp-content/uploads/header_photo_2.png" width="141px" height="141px">
+							<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/about/header_photo_2.png" width="141px" height="141px">
 						</div>
 						<div>
 							<div class="programs">Local Governance</div><br/>
-							<img src="http://localhost/nuvali/wp-content/uploads/header_photo_3.png" width="141px" height="141px">
+							<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/about/header_photo_3.png" width="141px" height="141px">
 						</div>
 						<div>
 							<div class="programs">Nuvali Partners</div><br/>
-							<img src="http://localhost/nuvali/wp-content/uploads/header_photo_4.png" width="141px" height="141px">
+							<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/about/header_photo_4.png" width="141px" height="141px">
 						</div>
 					</div>
 					<br/>
@@ -221,7 +221,7 @@
 			</div>
 		</div>
 		<!-- <div class="rocks-divider"></div> -->
-		<img id="rocks-divider" src="http://localhost/nuvali/wp-content/uploads/rocks.png">
+		<img id="rocks-divider" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/about/rocks.png">
 		<div class="about2">
 			<div class="bottom-content">
 				<div class="left-content">
@@ -282,7 +282,7 @@
 			</div>
 		</div>
 		<div class="our-heritage-container">
-			<img src="http://localhost/nuvali/wp-content/uploads/side-image2.png">
+			<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/our_heritage/side-image.png">
             <div class="main-title"><h1>Our Heritage</h1></div><br/><br/>
             <h4 style="color:#fff;">"Initiating a future-oriented, mixed-use metropolis, NUVALI nurtures the promise of a distinguished legacy"</h4>
             <br/>
@@ -295,7 +295,7 @@
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nisl leo, lacinia et consectetur id, aliquam at metus. Pellentesque at est est, consectetur pellentesque nibh. Nunc condimentum orci nec lorem lacinia mattis. Sed id vestibulum velit. Nullam molestie risus sed nulla venenatis molestie. Integer a risus ipsum. Sed arcu eros, luctus ut ornare et, gravida eget nunc. Cras et enim libero. Cras sed turpis ac lorem consectetur congue. Vestibulum sed magna et justo tempus ullamcorper at sed mauris. Fusce convallis dignissim ligula sed fringilla. Sed venenatis suscipit ornare. Suspendisse hendrerit lectus nec libero suscipit condimentum.</p>
             </div>
-            <img id="divider-flowers" src="http://localhost/nuvali/wp-content/uploads/divider-flowers.png">
+            <img id="divider-flowers" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/our_heritage/divider-flowers.png">
 		</div>
 			
     				</div> <!-- end #main -->

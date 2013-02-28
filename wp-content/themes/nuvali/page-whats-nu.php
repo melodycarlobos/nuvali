@@ -12,33 +12,33 @@
         <div id="whats-nu-header2">
             <div class="container">
             
-                <input type="image"  id="go-left" src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-left.png" class="buttons" />
- <input id="go-right" type="image" src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-right.png" class="buttonright" />
+                <input type="image"  id="go-left" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-left.png" class="buttons" />
+ <input id="go-right" type="image" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-right.png" class="buttonright" />
                     <div class="slider">
                         <div class="months">
                            
                             <div id="jan" class="month"><h3 class="text">January</h3></div>
-                            <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
+                            <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-divider.png" class="divider" />
                             <div id="feb" class="month"><h3 class="text">February</h3></div>
-                            <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
+                            <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-divider.png" class="divider" />
                             <div id="mar" class="month"><h3 class="text">March</h3></div>
-                             <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
+                             <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-divider.png" class="divider" />
                             <div id="aprl" class="month"><h3 class="text">April</h3></div>
-                             <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
+                             <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-divider.png" class="divider" />
                             <div id="may" class="month"><h3 class="text">May</h3></div>
-                             <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
+                             <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-divider.png" class="divider" />
                             <div id="jun" class="month"><h3 class="text">June</h3></div>
-                             <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
+                             <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-divider.png" class="divider" />
                             <div id="july" class="month"><h3 class="text">July</h3></div>
-                             <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
+                             <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-divider.png" class="divider" />
                             <div id="aug" class="month"><h3 class="text">August</h3></div>
-                             <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
+                             <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-divider.png" class="divider" />
                             <div id="sept" class="month"><h3 class="text">September</h3></div>
-                             <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
+                             <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-divider.png" class="divider" />
                             <div id="oct" class="month"><h3 class="text">October</h3></div>
-                             <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
+                             <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-divider.png" class="divider" />
                             <div id="nov" class="month"><h3 class="text">November</h3></div>
-                             <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-nav-divider.png" class="divider" />
+                             <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-divider.png" class="divider" />
                             <div id="dec" class="month"><h3 class="text">December</h3></div>      
                         </div>
                     </div>
@@ -49,8 +49,8 @@
         <div id="whats-nu-slider-container">
                
             <div class="container">
-                <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-slider-frame-left.png" class="border-left" />
-                <img src="http://localhost/nuvali/wp-content/uploads/calendar-events-slider-frame-right.png" class="border-right" />
+                <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-slider-frame-left.png" class="border-left" />
+                <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-slider-frame-right.png" class="border-right" />
                 <div class="image_container">
                    
                 </div>
@@ -72,12 +72,12 @@
                         </div>
                         <div class="slider">
                         	<div class="buttons">
-                            	<img src="http://localhost/nuvali/wp-content/uploads/side-button-left.png" />
+                            	<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/side-button-left.png" />
                             </div>
                             <div class="pic-object-container">
                             </div>
                         	<div class="buttons">
-                            	<img src="http://localhost/nuvali/wp-content/uploads/side-button-right.png" />
+                            	<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/side-button-right.png" />
                             </div>
 							
                         </div>

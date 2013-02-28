@@ -64,7 +64,7 @@
 		                <span>Copyright 2010. NUVALI Evoliving, A Project of Ayala Land. All rights reserved. Privacy Policy</span> 
 		           </div>
 		           <div class="logo-trademarks">
-		                <img src="http://localhost/nuvali/wp-content/uploads/white-logo.png" />
+		                <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/white-logo.png" />
 		           </div>		
 					 </nav> 
 				</div> <!-- end #inner-footer -->

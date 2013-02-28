@@ -1,0 +1,303 @@
+.nu_living-container{
+	width:100%;
+	height:auto;
+	margin-top:64px;
+	float:left;
+	padding-bottom:30px;
+}
+
+
+.nu_living-container #nu_living-container-content{
+	width:1280px;
+	height:inherit;
+	margin:0 auto;
+
+}
+
+#nu_living-container-content #nu_living-content-left{
+	width:50%;
+	height:inherit;
+	float:left;
+
+}
+
+#nu_living-content-left .nu_living-content{
+	margin-top:180px;
+	margin-left:80px;
+	width:80%;
+}
+
+#nu_living-content-left .nu_living-content h1{
+	font-size:80px;
+	margin-bottom:0;
+}
+
+#nu_living-content-left .nu_living-content h4{
+	margin-top:0;
+}
+
+#nu_living-container-content #nu_living-content-right{
+	width:50%;
+	height:inherit;
+	float:left;
+	
+}
+
+#nu_living-content-right img{
+	position:relative;
+
+}
+
+#nu_living-header{
+	width:inherit;
+	height:60px;
+	float:left;
+	padding-bottom:30px;
+	
+}
+#nu_living-header .container{
+	width:940px;
+	height:inherit;
+	margin:0 auto;
+}
+#nu_living-header .container h3{
+	text-transform: none;
+	color:black;
+	text-align: center;
+	font-weight: normal;
+}
+#nu_living-header .container h3.title{
+	font-size:28px;
+	font-weight:normal;
+}
+#nu_living-header2 .container{
+	width:940px;
+	height:inherit;
+	margin:0 auto;
+
+	z-index:1;
+}
+#nu_living-header2 .container img{
+
+	z-index:-1;
+}
+#nu_living-header2 .container .text{
+	float:left;
+	width:297px;
+	color:#67a83d;
+	text-align:center;
+	font-size:25px;
+}
+#nu_living-header2 .container .divider{
+	float:left;
+	position:relative;
+	top:7px;
+}
+#nu_living-header2 .container .buttons{
+	float:left;
+	position:relative;
+	top:23px;
+}
+#nu_living-header2{
+	width:inherit;
+	height:85px;
+	float:left;
+}
+
+
+
+#nu_living-content2{
+	width:100%;
+	float:left;
+	background-color:#67a83d;
+}
+
+#nu_living-content2 .nu_living-info{
+	width:100%;
+	float:left;
+}
+
+#nu_living-content2 .nu_living-info	.nu_living-info-slider{
+	width:1280px;
+	height:474px;
+	margin:0 auto;
+	display:block;
+	position:relative;
+}
+
+.nu_living-info-slider .slider-body{
+	width:1280px;
+	height:inherit;
+	margin:0 auto;
+	display:block;
+	position:relative;
+	z-index:2;
+}
+
+.slider-body .buttons-container{
+	width:300px;
+	height:30px;
+	position:relative;
+	
+
+}
+
+.buttons-container .button{
+	width:30px;
+	height:30px;
+	background:white;
+	border-radius:50%;
+	float:left;
+	margin-right:14px;
+}
+
+
+.nu_living-info-slider img.slider-body-image{
+	width:884px;
+	height:472px;
+	position:relative;
+	display:none;
+	z-index: 1;
+
+}
+
+.nu_living-info-slider .slider-image-selected{
+
+}
+
+.slider-body .caption{
+	width:200px;
+	position:relative;
+	z-index:3;
+	
+}
+
+.slider-body .caption h2{
+	color:white;
+	margin:0;
+	font-size:60px;
+	margin-bottom:5px;
+}
+
+.slider-body .caption h5{
+	margin:0;
+	color:#1c5936;
+	font-size:19px;
+	font-weight:bold;
+}
+
+
+#nu_living-content2 .nu_living-info:nth-child(odd) .slider-body{
+	background:url('http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/border-odd.png') no-repeat;
+	left: 123px;
+	position: relative;
+}
+
+#nu_living-content2 .nu_living-info:nth-child(odd) .caption{
+	left:20px;
+	top:40px;
+}
+
+#nu_living-content2 .nu_living-info:nth-child(even) .caption{
+	left:1000px;
+	top:40px;
+}
+
+
+
+#nu_living-content2 .nu_living-info:nth-child(odd) img.slider-body-image{
+	top: -471px;
+	left: 310px;
+	height:471px;
+}
+
+#nu_living-content2 .nu_living-info:nth-child(even) img.slider-body-image{
+	top: -472px;
+	left: 26px;
+	height:470px;
+}
+
+
+#nu_living-content2 .nu_living-info:nth-child(even) .slider-body{
+	background:url('http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/border-even.png') no-repeat;
+	left: -123px;
+	position: relative;
+}
+
+#nu_living-content2 .nu_living-info:nth-child(odd) .buttons-container{
+	left: 570px;
+	top: 230px;
+}
+#nu_living-content2 .nu_living-info:nth-child(even) .buttons-container{
+	left: 420px;
+	top: 230px;	
+}
+
+#nu_living-content2 .nu_living-info	.nu_living-info-content{
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	display:block;
+	float:left;
+	background:white;
+}
+
+.nu_living-info-content .content-body{
+	width:1280px;
+	height:auto;
+	margin:0 auto;
+	display:block;
+	position:relative;
+}
+
+
+.content-body .content-body-left,.content-body-right{
+	float:left;
+	width:50%;
+	height:auto;
+	min-height:280px;
+	padding-top:20px;
+	padding-bottom:40px;
+
+}
+
+.content-body-left p{
+	width:90%;
+	margin-left:20px;
+}
+
+.content-body-left img{
+	margin-left:20px;
+
+}
+
+.content-body-right img.google-icon{
+	position:relative;
+	display:inline;
+	margin-top:80px;
+	margin-left:120px;
+}
+
+.content-body-right h4.google-text{
+	position:relative;
+	display:inline;
+	bottom:12px;
+	font-weight:normal;
+	color:#67a83d;
+	margin-left:10px;
+}
+
+
+
+.content-body-left h4{
+	color:#67a83d;
+	font-size:25px;
+	margin-left:20px;
+}
+
+.content-body-left div{
+	width:200px;
+	display:inline-block;
+	position:relative;
+	top:-10px;
+}

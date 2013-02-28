@@ -21,11 +21,25 @@
 	top: 394px;
 }
 
+#home-upper-left-arrow-nav, #home-upper-right-arrow-nav{
+	float:left;
+}
+
 #home-upper-nav .button{
+	width:17px;
+	height:17px;
+	float:left;
+	background:#006a3b;
+	border-radius:50%;
 	position:relative;
-	top:-3px;
+	top:4px;
 	margin-left:4px;
 	margin-right:4px;
+}
+
+.button-selected{
+	background:white;
+	
 }
 
 #home-container-content h1{
@@ -67,14 +81,25 @@
 
 }
 
+.home-upper-image .home-upper-slider-image{
+	display:none;
+}
+
+.home-upper-image .slider-selected{
+	display:block;
+}
+
 #home-container-content .home-upper-text{
 	width:250px;
 	height:auto;
 	min-height:200px;
 	position:absolute;
-	margin-left:780px;
-	margin-top:80px;
+	left: 1300px;
+	top: 60px;
 	z-index:3;
+	display:none;
+
+
 
 }
 .home-upper-text h4{
@@ -221,6 +246,11 @@
 	float:left;
 	overflow:hidden;
 
+}
+#content2-content-text .calendar{
+	height:inherit;
+	width:90%;
+	display:none;
 }
 
 #content2-content-text ul{
