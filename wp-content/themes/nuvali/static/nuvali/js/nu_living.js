@@ -31,14 +31,43 @@ $(document).ready(function(){
 	
 	/* ---- End  ---- */
 
+	var $interval = 4000 // this could be changed
+	var timer = window.setInterval(nextSlide, $interval);
 
+
+
+	
+
+
+	/* ---- Event Script for buttons with a class corresponds to group and id corresponds to each image ---- */
+
+	$('.buttons-container').find('.button').click(function(){
+		window.clearInterval(timer);
+  		timer = window.setInterval(nextSlide, 4000);
+
+		var $button_class = $(this).attr('class').split(' ')[1];
+		var $button_id = $(this).attr('id');
+		var $image = $('.nu_living-info-slider').find('.slider-body-image.' + $button_class + '#' + $button_id);
+		var $image_class = $('.nu_living-info-slider').find('.slider-body-image.' + $button_class + '#' + $button_id).attr('class').split(' ')[1];
+		var $image_id = $('.nu_living-info-slider').find('.slider-body-image.' + $button_class + '#' + $button_id).attr('id');
+		var $image_selected = $('.nu_living-info-slider').find('.slider-body-image.' + $button_class + '.slider-image-selected');
+
+		if($button_class === $image_class){
+			if($image_selected.attr('id') != $image_id){
+				$image_selected.removeClass('slider-image-selected').css('display', 'none');
+			
+				$image.addClass('slider-image-selected');
+				$image.fadeIn('normal');
+			}
+		}
+
+	});
+
+	/* --- End Event Script ---- */
 
 	/* ----- Automatically change the image to next slide every 4 seconds ------*/
 
-	var $interval = 4000 // this could be changed
-	setInterval(function(){
-		nextSlide();
-	},$interval);
+	
 
 	function nextSlide(){
 
@@ -65,30 +94,5 @@ $(document).ready(function(){
 	}
 
 	/* ---- End setInterval script ----- */
-
-
-	/* ---- Event Script for buttons with a class corresponds to group and id corresponds to each image ---- */
-
-	$('.buttons-container').find('.button').click(function(){
-		var $button_class = $(this).attr('class').split(' ')[1];
-		var $button_id = $(this).attr('id');
-		var $image = $('.nu_living-info-slider').find('.slider-body-image.' + $button_class + '#' + $button_id);
-		var $image_class = $('.nu_living-info-slider').find('.slider-body-image.' + $button_class + '#' + $button_id).attr('class').split(' ')[1];
-		var $image_id = $('.nu_living-info-slider').find('.slider-body-image.' + $button_class + '#' + $button_id).attr('id');
-		var $image_selected = $('.nu_living-info-slider').find('.slider-body-image.' + $button_class + '.slider-image-selected');
-
-		if($button_class === $image_class){
-			if($image_selected.attr('id') != $image_id){
-				$image_selected.removeClass('slider-image-selected').css('display', 'none');
-			
-				$image.addClass('slider-image-selected');
-				$image.fadeIn('normal');
-			}
-		}
-
-	});
-
-	/* --- End Event Script ---- */
-
 
 });

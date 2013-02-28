@@ -21,7 +21,9 @@ $(document).ready(function(){
 
 /* --- End script --- */
 
+
 $(function(){
+	var timer = window.setInterval(nextSlide, 4000);
 
 	var $slider_images = $('.home-upper-image').find('.home-upper-slider-image');
 	var $slider_texts = $('.home-upper-image').find('.home-upper-text');
@@ -60,8 +62,9 @@ $(function(){
 
 	$('#home-upper-nav .button').click(function(){
 		var $image_selected = $('.home-upper-image').find("img.slider-selected");
+		window.clearInterval(timer);
+  		timer = window.setInterval(nextSlide, 4000);
 
-		
 		$('#home-upper-nav').find('.button-selected').css('background-color', '#006a3b');
 		$('#home-upper-nav').find('.button-selected').removeClass('button-selected');
 
@@ -109,10 +112,14 @@ $(function(){
 
 	
 	$('#home-upper-right-arrow-nav').click(function(){
+
 		var $image_selected = $('.home-upper-image').find("img.slider-selected");
 		var id_array = [];
 
 		var $test = $('.home-upper-image').not("img.slider-selected");
+
+		window.clearInterval(timer);
+  		timer = window.setInterval(nextSlide, 4000);
 
 		$test.each(function(index){
 			console.log( "this is fuckin shet:" +  index);
@@ -215,7 +222,9 @@ $(function(){
 
 	$('#home-upper-left-arrow-nav').click(function(){
 		var $image_selected = $('.home-upper-image').find("img.slider-selected");
-
+		window.clearInterval(timer);
+  		timer = window.setInterval(nextSlide, 4000);
+		
 		if($image_selected.prev().hasClass('home-upper-slider-image') === true){
 			$image_selected.removeClass('slider-selected');
 			$image = $image_selected.prev();
@@ -309,14 +318,16 @@ $(function(){
 
 /* ----- Automatically change the image to next slide every 4 seconds ------*/
 
-	launchInterval();
+
 	
-	function launchInterval(){
-		var $interval = 4000 // this could be changed
-		setInterval(function(){
-			nextSlide();
-		},$interval);
-	}
+	// launchInterval();
+	
+	// function launchInterval(){
+	// 	var $interval = 4000 // this could be changed
+	// 	setInterval(function(){
+	// 		();
+	// 	},$interval);
+	// }
 
 	function nextSlide(){
 		var $current_slide = $('.home-upper-image').find('.home-upper-slider-image.slider-selected');
