@@ -13,7 +13,7 @@
             <div class="container">
             
                 <input type="image"  id="go-left" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-left.png" class="buttons" />
- <input id="go-right" type="image" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-right.png" class="buttonright" />
+                 <input id="go-right" type="image" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-right.png" class="buttonright" />
                     <div class="slider">
                         <div class="months">
                            

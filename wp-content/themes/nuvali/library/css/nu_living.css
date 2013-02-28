@@ -98,6 +98,13 @@
 	position:relative;
 	top:23px;
 }
+
+#nu_living-header2 .container .buttonright{
+	float:right;
+	position:relative;
+	top:23px;
+}
+
 #nu_living-header2{
 	width:inherit;
 	height:85px;

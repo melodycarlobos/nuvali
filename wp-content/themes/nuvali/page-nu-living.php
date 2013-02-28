@@ -34,15 +34,27 @@
         	
 	        </div>
 	        <div id="nu_living-header2">
-	            <div class="container">
-	                <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-left.png" class="buttons" />
-	                <div class="text"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/abrio-text.png" /></div>
-	                <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-divider.png" class="divider" />
-	                <div class="text"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/montecito-text.png" /></div>
-	                <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-divider.png" class="divider" />
-	                <div class="text"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/santiera-image.png" /></div>
-	                <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-right.png" class="buttons" />
-	            </div>    
+	           <div class="container">
+
+                <input type="image"  id="go-left" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-left.png" class="buttons" />
+				<input id="go-right" type="image" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-right.png" class="buttonright" />
+				    <div class="slider">
+                        <div class="properties">
+			                <div class="text"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/abrio-text.png" /></div>
+			                <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-divider.png" class="divider">
+			                <div class="text"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/montecito-text.png" /></div>
+			                <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-divider.png" class="divider">
+			                <div class="text"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/santiera-image.png" /></div>
+			                <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-divider.png" class="divider">
+			                <div class="text"><img src="http://placehold.it/165x48"/></div>
+			                <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-divider.png" class="divider">
+			                <div class="text"><img src="http://placehold.it/165x48"/></div>
+			                <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-divider.png" class="divider">
+			                <div class="text"><img src="http://placehold.it/165x48"/></div>
+
+	              		</div>
+	              	</div>
+	           </div>    
 	            
 	        </div>
 		</div>
