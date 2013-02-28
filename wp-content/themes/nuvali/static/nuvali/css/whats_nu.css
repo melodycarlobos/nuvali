@@ -177,4 +177,42 @@
 #whats-nu-event-venues .container .content .blend{
 	color:#286c47;
 }
+
+#future-dev-container{
+	width:1280px;
+	height:auto;
+	float:left;
+	margin-top:20px;
+}
+
+#future-dev-container #future-dev-container-content{
+	width:46%;
+	padding-left: 2%;
+	padding-right: 2%;
+	height:auto;
+	min-height:400px;
+	float:left;
+	margin-top:20px;
+}
+
+#future-dev-container-content h1{
+	font-size:50px;
+}
+
+#future-dev-container-content h1 span{
+	color:#276b45;
+}
 	
+#future-dev-container #future-dev-container-image {
+	width:50%;
+	height:auto;
+	float:left;
+	position:relative;
+	z-index:10;
+}
+
+#future-dev-container-image img{
+	position:relative;
+	left: -42px;
+	top: -106px;
+}
