@@ -171,4 +171,73 @@
 	right: 0;
 	margin-top: -570px;
 }
+/* --- end of EDUCATION --- */
 
+/* --- TRANSPORTATION --- */
+.transit {
+	height: 626px;
+	background: #fff;
+}
+.transit .content {
+	float: left; 
+	display: inline;
+	width: 50%;
+	margin-left: 80px;
+}
+.transit #side-right-image {
+	float: right;
+	display: inline;
+	position: absolute;
+	right: 0;
+	margin-top: -8px;
+	z-index: 2;
+}
+.transit h4,
+.transit h5 {
+	text-transform: uppercase;
+	margin-top: -20px;
+}
+.transit h5 {
+	font-size: 18px;
+}
+.transit ul li {
+	display: table;
+	margin-bottom: 12px;
+	line-height: 100%;
+}
+.transit ul li > img {
+	display: table-cell;
+	margin-right: 12px;
+}
+.transit ul li > h5 {
+	display: table-cell;
+	vertical-align: middle;
+}
+.map {
+	height: 480px;
+	background: #67a83d;
+}
+.map .content {
+	width: 100%;
+	display: block;
+	overflow-y: hidden;
+}
+.map .content #left-frame {
+	float: left;
+	display: inline-block;
+	z-index: 1;
+	left: 0;
+	position: absolute;
+}
+.map .content #right-frame {
+	float: right;
+	display: inline-block;
+	z-index: 1;
+	right: 0;
+	position: absolute;
+}
+.map .content #map {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+}
