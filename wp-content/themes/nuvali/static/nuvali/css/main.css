@@ -33,6 +33,26 @@ h5 {
 	font-size: 15px;
 }
 
+span.dark-green,
+.dark-green {
+	color: #1c5936;
+}
+.medium-green {
+	color: #006939;
+}
+.light-green {
+	color: #074700;
+}
+.yellow-green {
+	color: #67a83d;
+}
+.white {
+	color: #fff;
+}
+.gray {
+	color: #38443f;
+}
+
 /* --- HEADER & MAIN NAVIGATION --- */
 .header-wrapper {
 	background: #fff;
@@ -135,6 +155,28 @@ span.fb_edge_comment_widget.fb_iframe_widget iframe
 .main-content {
 	width:100%;
 	float: left;
+}
+
+/* --- VIEW GOOGLE MAPS --- */
+.view-google-map,
+.view-google-map-white {
+	display: table;
+}
+.view-google-map img,
+.view-google-map-white img {
+	margin-right: 12px;
+}
+.view-google-map div,
+.view-google-map-white div {
+	font-size: 24px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.view-google-map div {
+	color: #787878;
+}
+.view-google-map-white div {
+	color: #fff;
 }
 
 /* -- FOOTER -- */
