@@ -59,6 +59,9 @@
 <?php } elseif ( is_page('invest-in-nuvali') ) { ?>
     <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/themes/nuvali/library/css/investments.css">
 
+<?php } elseif ( is_page('nu-living') ) { ?>
+    <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/themes/nuvali/library/css/nu_living.css">
+<script src="http://localhost/nuvali/wp-content/themes/nuvali/library/js/nu_living.js" type="text/javascript"></script>
 <?php }?>
 
 
