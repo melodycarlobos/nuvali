@@ -11,20 +11,41 @@
 			<div id="home-upper-border-left"></div>
 			<div id="home-upper-border-right"></div>
 			<div class="home-upper-image">
-				<img src="http://placehold.it/1240x424p">
-				<div class="home-upper-text">
+				<img src="http://placehold.it/1240x424p" id="1" class="home-upper-slider-image slider-selected">
+				<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/home/test2.png" id="2" class="home-upper-slider-image">
+				<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/home/test3.png" id="3" class="home-upper-slider-image">
+				<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/home/test3.png" id="4" class="home-upper-slider-image">
+				<div class="home-upper-text" id="1">
 					<h4>THIS IS WHERE WILL THE BALANCED LIFE IS LIVED NOW</h4>
 					<div class="home-upper-text-box">
 						<h5>LEARN MORE ABOUT NUVALI</h5>
 					</div>
 				</div>
-				<div id="home-upper-nav">
-					<img src="http://localhost/nuvali/wp-content/uploads/left-arrow-nav.png" />
-					<img src="http://localhost/nuvali/wp-content/uploads/button-brown.png" class="button" />
-					<img src="http://localhost/nuvali/wp-content/uploads/button-brown.png" class="button" />
-					<img src="http://localhost/nuvali/wp-content/uploads/button-white.png" class="button" />
-					<img src="http://localhost/nuvali/wp-content/uploads/button-brown.png" class="button" />
-					<img src="http://localhost/nuvali/wp-content/uploads/right-arrow-nav.png" />
+
+				<div class="home-upper-text" id="2">
+					<h4>THIS IS WHERE WILL THE BALANCED LIFE IS LIVED NOW 2</h4>
+					<div class="home-upper-text-box">
+						<h5>LEARN MORE ABOUT NUVALI</h5>
+					</div>
+				</div>
+				<div class="home-upper-text" id="3">
+					<h4>THIS IS WHERE WILL THE BALANCED LIFE IS LIVED NOW 3</h4>
+					<div class="home-upper-text-box">
+						<h5>LEARN MORE ABOUT NUVALI</h5>
+					</div>
+				</div>
+				<div class="home-upper-text" id="4">
+					<h4>THIS IS WHERE WILL THE BALANCED LIFE IS LIVED NOW 4</h4>
+					<div class="home-upper-text-box">
+						<h5>LEARN MORE ABOUT NUVALI</h5>
+					</div>
+				</div>
+
+				
+				<div id="home-upper-nav" class="home-upper-nav">
+					<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/home/left-arrow-nav.png" id="home-upper-left-arrow-nav" />
+				
+					<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/home/right-arrow-nav.png" id="home-upper-right-arrow-nav" />
 				</div>
 			</div>
 			<h1>What's Nu?</h1>	
@@ -81,8 +102,8 @@
 								</ul>
 							</div>
 							<div id="content2-nav2">
-								<img src="http://localhost/nuvali/wp-content/uploads/arrow-up.png" id="content2-nav-up"/>
-								<img src="http://localhost/nuvali/wp-content/uploads/arrow-down.png" id="content2-nav-down"/>
+								<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/home/arrow-up.png" id="content2-nav-up"/>
+								<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/home/arrow-down.png" id="content2-nav-down"/>
 							</div>	
 						</div>
 				</div>
@@ -90,7 +111,7 @@
 
 			</div>
 			<div id="home-content2-right">
-				<img src="http://localhost/nuvali/wp-content/uploads/mid-image.png" />
+				<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/home/mid-image.png" />
 			</div>
 		</div>
 	</div>
@@ -109,8 +130,8 @@
 
 			</div>
 			<div id="home-container3-right">
-				<img src="http://localhost/nuvali/wp-content/uploads/brochure.png" />
-				<img src="http://localhost/nuvali/wp-content/uploads/right-arrow.png" id="right-arrow"/>
+				<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/home/brochure.png" />
+				<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/home/right-arrow.png" id="right-arrow"/>
 				<div class="share">
 					<div>
 						SHARE

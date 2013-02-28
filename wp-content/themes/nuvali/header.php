@@ -62,6 +62,11 @@
 <?php } elseif ( is_page('nu-living') ) { ?>
     <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/themes/nuvali/library/css/nu_living.css">
 <script src="http://localhost/nuvali/wp-content/themes/nuvali/library/js/nu_living.js" type="text/javascript"></script>
+
+<?php } elseif ( is_page('tour') ) { ?>
+    <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/themes/nuvali/library/css/tour.css">
+
+
 <?php }?>
 
 
@@ -92,13 +97,13 @@
 				<div class="logo">
 					<!-- to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> -->
 					<a href="<?php echo home_url(); ?>" rel="nofollow" ><?php bloginfo('http://localhost/wordpress/wp-content/uploads/logo.png'); ?></a>
-					<a href=""><img src="http://localhost/nuvali/wp-content/uploads/logo.png"></a>
+					<a href=""><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/logo.png"></a>
 				</div>
 
 			<div class="social-network">
 				<input type="text" size="22" class="search">
-				<a href="#"><img src="http://localhost/nuvali/wp-content/uploads/twitter.png" width="27px" height="27px"></a>
-				<a href="#"><img src="http://localhost/nuvali/wp-content/uploads/youtube.png" width="27px" height="27px"></a>
+				<a href="#"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/twitter.png" width="27px" height="27px"></a>
+				<a href="#"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/youtube.png" width="27px" height="27px"></a>
 				<div class="fb-like" data-send="false" data-width="15"></div>
 			</div>
 

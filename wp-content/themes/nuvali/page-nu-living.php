@@ -24,7 +24,7 @@
 				</div>
 			</div>
 			<div id="nu_living-content-right">
-				<img src="img/nu_living/upper-image.png" />
+				<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/upper-image.png" />
 			</div>
 
 			<div id="nu_living-header">
@@ -35,13 +35,13 @@
 	        </div>
 	        <div id="nu_living-header2">
 	            <div class="container">
-	                <img src="img/whatsnu/calendar-events-nav-left.png" class="buttons" />
-	                <div class="text"><img src="img/nu_living/abrio-text.png" /></div>
-	                <img src="img/whatsnu/calendar-events-nav-divider.png" class="divider" />
-	                <div class="text"><img src="img/nu_living/montecito-text.png" /></div>
-	                <img src="img/whatsnu/calendar-events-nav-divider.png" class="divider" />
-	                <div class="text"><img src="img/nu_living/santiera-image.png" /></div>
-	                <img src="img/whatsnu/calendar-events-nav-right.png" class="buttons" />
+	                <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-left.png" class="buttons" />
+	                <div class="text"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/abrio-text.png" /></div>
+	                <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-divider.png" class="divider" />
+	                <div class="text"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/montecito-text.png" /></div>
+	                <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-divider.png" class="divider" />
+	                <div class="text"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/santiera-image.png" /></div>
+	                <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-nav-right.png" class="buttons" />
 	            </div>    
 	            
 	        </div>
@@ -69,10 +69,10 @@
 					</div>
 				</div>
 
-				<img class="slider-body-image 1" id="1" src="img/nu_living/sample-pic1.png" />
-				<img class="slider-body-image 1" id="2" src="img/nu_living/sample-pic2.png" />
-				<img class="slider-body-image 1" id="3" src="img/nu_living/sample-pic3.png" />
-				<img class="slider-body-image 1" id="4" src="img/nu_living/sample-pic4.png" />
+				<img class="slider-body-image 1" id="1" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/sample-pic1.png" />
+				<img class="slider-body-image 1" id="2" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/sample-pic2.PNG" />
+				<img class="slider-body-image 1" id="3" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/sample-pic3.PNG" />
+				<img class="slider-body-image 1" id="4" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/sample-pic4.PNG" />
 
 			</div>
 			<div class="nu_living-info-content">
@@ -85,7 +85,7 @@
 
 						<h4>KNOW MORE</h4>
 
-						<img src="img/nu_living/phone-icon.png" />
+						<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/phone-icon.png" />
 						
 						<div>
 							<span>
@@ -98,7 +98,7 @@
 
 					</div>
 					<div class="content-body-right">
-						<img class="google-icon" src="img/nu_living/google-map-icon.png" />
+						<img class="google-icon" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/google-map-icon.png" />
 						<h4 class="google-text">View Google Maps </h4>
 					</div>
 				</div>
@@ -123,10 +123,10 @@
 					</div>
 				</div>
 
-				<img class="slider-body-image 2" id="1" src="img/nu_living/sample-pic1.png" />
-				<img class="slider-body-image 2" id="2" src="img/nu_living/sample-pic2.png" />
-				<img class="slider-body-image 2" id="3" src="img/nu_living/sample-pic3.png" />
-				<img class="slider-body-image 2" id="4" src="img/nu_living/sample-pic4.png" />
+				<img class="slider-body-image 2" id="1" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/sample-pic1.png" />
+				<img class="slider-body-image 2" id="2" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/sample-pic2.PNG" />
+				<img class="slider-body-image 2" id="3" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/sample-pic3.PNG" />
+				<img class="slider-body-image 2" id="4" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/sample-pic4.PNG" />
 
 			</div>
 			<div class="nu_living-info-content">
@@ -139,7 +139,7 @@
 
 						<h4>KNOW MORE</h4>
 
-						<img src="img/nu_living/phone-icon.png" />
+						<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/phone-icon.png" />
 						
 						<div>
 							<span>
@@ -152,7 +152,7 @@
 
 					</div>
 					<div class="content-body-right">
-						<img class="google-icon" src="img/nu_living/google-map-icon.png" />
+						<img class="google-icon" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/google-map-icon.png" />
 						<h4 class="google-text">View Google Maps </h4>
 					</div>
 				</div>
@@ -177,10 +177,10 @@
 					</div>
 				</div>
 
-				<img class="slider-body-image 3" id="1" src="img/nu_living/sample-pic1.png" />
-				<img class="slider-body-image 3" id="2" src="img/nu_living/sample-pic2.png" />
-				<img class="slider-body-image 3" id="3" src="img/nu_living/sample-pic3.png" />
-				<img class="slider-body-image 3" id="4" src="img/nu_living/sample-pic4.png" />
+				<img class="slider-body-image 3" id="1" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/sample-pic1.png" />
+				<img class="slider-body-image 3" id="2" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/sample-pic2.PNG" />
+				<img class="slider-body-image 3" id="3" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/sample-pic3.PNG" />
+				<img class="slider-body-image 3" id="4" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/sample-pic4.PNG" />
 			</div>
 			<div class="nu_living-info-content">
 				<div class="content-body">
@@ -192,7 +192,7 @@
 
 						<h4>KNOW MORE</h4>
 
-						<img src="img/nu_living/phone-icon.png" />
+						<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/phone-icon.png" />
 						
 						<div>
 							<span>
@@ -205,7 +205,7 @@
 
 					</div>
 					<div class="content-body-right">
-						<img class="google-icon" src="img/nu_living/google-map-icon.png" />
+						<img class="google-icon" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/google-map-icon.png" />
 						<h4 class="google-text">View Google Maps </h4>
 					</div>
 				</div>
@@ -230,10 +230,10 @@
 					</div>
 				</div>
 
-				<img class="slider-body-image 4" id="1" src="img/nu_living/sample-pic1.png" />
-				<img class="slider-body-image 4" id="2" src="img/nu_living/sample-pic2.png" />
-				<img class="slider-body-image 4" id="3" src="img/nu_living/sample-pic3.png" />
-				<img class="slider-body-image 4" id="4" src="img/nu_living/sample-pic4.png" />
+				<img class="slider-body-image 4" id="1" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/sample-pic1.png" />
+				<img class="slider-body-image 4" id="2" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/sample-pic2.PNG" />
+				<img class="slider-body-image 4" id="3" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/sample-pic3.PNG" />
+				<img class="slider-body-image 4" id="4" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/sample-pic4.PNG" />
 			</div>
 			<div class="nu_living-info-content">
 				<div class="content-body">
@@ -245,7 +245,7 @@
 
 						<h4>KNOW MORE</h4>
 
-						<img src="img/nu_living/phone-icon.png" />
+						<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/phone-icon.png"/>
 						
 						<div>
 							<span>
@@ -258,7 +258,7 @@
 
 					</div>
 					<div class="content-body-right">
-						<img class="google-icon" src="img/nu_living/google-map-icon.png" />
+						<img class="google-icon" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/google-map-icon.png" />
 						<h4 class="google-text">View Google Maps </h4>
 					</div>
 				</div>
@@ -284,10 +284,10 @@
 					</div>
 				</div>
 
-				<img class="slider-body-image 5" id="1" src="img/nu_living/sample-pic1.png" />
-				<img class="slider-body-image 5" id="2" src="img/nu_living/sample-pic2.png" />
-				<img class="slider-body-image 5" id="3" src="img/nu_living/sample-pic3.png" />
-				<img class="slider-body-image 5" id="4" src="img/nu_living/sample-pic4.png" />
+				<img class="slider-body-image 5" id="1" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/sample-pic1.png" />
+				<img class="slider-body-image 5" id="2" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/sample-pic2.PNG" />
+				<img class="slider-body-image 5" id="3" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/sample-pic3.PNG" />
+				<img class="slider-body-image 5" id="4" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/sample-pic4.PNG" />
 			</div>
 			<div class="nu_living-info-content">
 				<div class="content-body">
@@ -299,7 +299,7 @@
 
 						<h4>KNOW MORE</h4>
 
-						<img src="img/nu_living/phone-icon.png" />
+						<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/phone-icon.png" />
 						
 						<div>
 							<span>
@@ -312,7 +312,7 @@
 
 					</div>
 					<div class="content-body-right">
-						<img class="google-icon" src="img/nu_living/google-map-icon.png" />
+						<img class="google-icon" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/google-map-icon.png" />
 						<h4 class="google-text">View Google Maps </h4>
 					</div>
 				</div>
@@ -338,10 +338,10 @@
 					</div>
 				</div>
 
-				<img class="slider-body-image 6" id="1" src="img/nu_living/sample-pic1.png" />
-				<img class="slider-body-image 6" id="2" src="img/nu_living/sample-pic2.png" />
-				<img class="slider-body-image 6" id="3" src="img/nu_living/sample-pic3.png" />
-				<img class="slider-body-image 6" id="4" src="img/nu_living/sample-pic4.png" />
+				<img class="slider-body-image 6" id="1" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/sample-pic1.png" />
+				<img class="slider-body-image 6" id="2" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/sample-pic2.PNG" />
+				<img class="slider-body-image 6" id="3" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/sample-pic3.PNG" />
+				<img class="slider-body-image 6" id="4" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/sample-pic4.PNG" />
 			</div>
 			<div class="nu_living-info-content">
 				<div class="content-body">
@@ -353,7 +353,7 @@
 
 						<h4>KNOW MORE</h4>
 
-						<img src="img/nu_living/phone-icon.png" />
+						<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/phone-icon.png" />
 						
 						<div>
 							<span>
@@ -366,7 +366,7 @@
 
 					</div>
 					<div class="content-body-right">
-						<img class="google-icon" src="img/nu_living/google-map-icon.png" />
+						<img class="google-icon" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/google-map-icon.png" />
 						<h4 class="google-text">View Google Maps </h4>
 					</div>
 				</div>

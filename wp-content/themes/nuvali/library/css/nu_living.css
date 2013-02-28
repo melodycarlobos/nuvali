@@ -188,7 +188,7 @@
 
 
 #nu_living-content2 .nu_living-info:nth-child(odd) .slider-body{
-	background:url('../img/nu_living/border-odd.png') no-repeat;
+	background:url('http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/border-odd.png') no-repeat;
 	left: 123px;
 	position: relative;
 }
@@ -219,7 +219,7 @@
 
 
 #nu_living-content2 .nu_living-info:nth-child(even) .slider-body{
-	background:url('../img/nu_living/border-even.png') no-repeat;
+	background:url('http://localhost/nuvali/wp-content/themes/nuvali/library/images/nu_living/border-even.png') no-repeat;
 	left: -123px;
 	position: relative;
 }
