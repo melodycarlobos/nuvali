@@ -282,10 +282,8 @@ $(function(){
 				$(this).animate({
 					left: ["800px", 'swing']
 				},700);
-
 			});
-
-		}
+		}	
 
 		
 	});
