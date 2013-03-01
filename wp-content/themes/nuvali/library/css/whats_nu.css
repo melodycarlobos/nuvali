@@ -123,21 +123,21 @@
 	text-align:center;
 	font-size:12px;
 }
-#whats-nu-content-container .event .content .slider{
+#whats-nu-content-container .event .content .imageslider{
 	width:580px;
 	height:106px;
 	margin:0 auto;
 	margin-top:15px;
 	overflow:hidden;
 }
-#whats-nu-content-container .event .content .slider .pic-object-container{
+#whats-nu-content-container .event .content .imageslider .pic-object-container{
 	width:518px;
 	height:inherit;
 	overflow:hidden;
 	background-color:black;
 	float:left;
 }
-#whats-nu-content-container .event .content .slider .buttons{
+#whats-nu-content-container .event .content .imageslider .buttons{
 	width:28px;
 	height:inherit;
 	overflow:hidden;

@@ -176,15 +176,14 @@ function my_jquery_enqueue() {
 function storecategories_dropdown( $taxonomy ) {
     $terms = get_terms( $taxonomy );
     $count = count($terms);
-
-    print($count);
-   // if ( $terms ) {
-        printf( '<select name="%s" class="postform">', $taxonomy );
+   if ( $terms ) {
+        printf( '<select name="%s" class="storecategories">', $taxonomy );
+        printf('<option value="#">Please Select Category</option>');
         foreach ( $terms as $term ) {
             printf( '<option value="%s">%s</option>', $term->slug, $term->name );
         }
         print( '</select>' );
-  //  }
+   }
 }
 
 

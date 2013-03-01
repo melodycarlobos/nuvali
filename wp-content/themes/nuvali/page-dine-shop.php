@@ -39,12 +39,7 @@
 
 <?php storecategories_dropdown( 'storecategories' ); ?>
 
-<!--                 <select>
-                <?php query_posts(array(  'post_type' => 'dineshops',  'category_name' => 'Retailstores')); ?>
-                <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-                  <option value="volvo"><?php the_title(); ?></option>
-                  <?php endwhile; endif; ?>   
-                </select> -->
+
 
                 <ul class="retail-store-list">
                     <li>

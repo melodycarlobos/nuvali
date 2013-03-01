@@ -61,8 +61,8 @@
 <div id="showmonth" style="display: none;"></div>
 
         		<!-- Start the Loop. -->
-<?php query_posts('category_name=Events'); ?>
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+<?php query_posts(array(  'post_type' => 'events',  'category_name' => 'Events')); ?>
+                    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
             	<div class="event">
                 	<div class="content">
                     	<div class="text">
@@ -70,7 +70,7 @@
 
                         	<?php the_content(); ?>
                         </div>
-                        <div class="slider">
+                        <div class="imageslider">
                         	<div class="buttons">
                             	<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/side-button-left.png" />
                             </div>
