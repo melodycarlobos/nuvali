@@ -35,12 +35,16 @@
                 <span class="retail-span">
                     Check out which stores are open by choosing a category below.
                 </span>
-                <select>
-                  <option value="volvo">List All Retail Stores</option>
-                  <option value="saab">Saab</option>
-                  <option value="mercedes">Mercedes</option>
-                  <option value="audi">Audi</option>
-                </select>
+
+
+<?php storecategories_dropdown( 'Categories' ); ?>
+
+<!--                 <select>
+                <?php query_posts(array(  'post_type' => 'dineshops',  'category_name' => 'Retailstores')); ?>
+                <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                  <option value="volvo"><?php the_title(); ?></option>
+                  <?php endwhile; endif; ?>   
+                </select> -->
 
                 <ul class="retail-store-list">
                     <li>

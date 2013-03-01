@@ -172,4 +172,22 @@ function my_jquery_enqueue() {
    wp_enqueue_script('jquery');
 }
 
+
+function storecategories_dropdown( $taxonomy ) {
+    $terms = get_terms( $taxonomy );
+    $count = count($terms);
+
+    print($count);
+   // if ( $terms ) {
+        printf( '<select name="%s" class="postform">', $taxonomy );
+        foreach ( $terms as $term ) {
+            printf( '<option value="%s">%s</option>', $term->slug, $term->name );
+        }
+        print( '</select>' );
+  //  }
+}
+
+
+
+
 ?>
