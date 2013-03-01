@@ -37,7 +37,7 @@
                 </span>
 
 
-<?php storecategories_dropdown( 'Categories' ); ?>
+<?php storecategories_dropdown( 'storecategories' ); ?>
 
 <!--                 <select>
                 <?php query_posts(array(  'post_type' => 'dineshops',  'category_name' => 'Retailstores')); ?>
