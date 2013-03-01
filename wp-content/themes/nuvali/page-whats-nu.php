@@ -52,6 +52,7 @@
                 <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-slider-frame-left.png" class="border-left" />
                 <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/calendar-events-slider-frame-right.png" class="border-right" />
                 <div class="image_container">
+                    <img src="http://placehold.it/1280x470p" class="home-upper-slider-image">
                    
                 </div>
             </div>
@@ -60,30 +61,48 @@
         	<div id="content">
 <div id="showmonth" style="display: none;"></div>
 
-        		<!-- Start the Loop. -->
-<?php query_posts(array(  'post_type' => 'events',  'category_name' => 'Events')); ?>
-                    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-            	<div class="event">
-                	<div class="content">
-                    	<div class="text">
-                        	<h2 class="title"><?php the_title(); ?></h2>
-
-                        	<?php the_content(); ?>
+                
+                <!-- Start the Loop. -->
+                <?php query_posts(array(  'post_type' => 'events',  'category_name' => 'Events')); ?>
+                <?php if (have_posts()) : while (have_posts()) : the_post(); ?>    
+                <div class="event">
+                    <div class="content">
+                        <div class="text">
+                            <h2 class="title"><?php the_title(); ?></h2>
+                        
+                            <?php the_content(); ?>
                         </div>
-                        <div class="imageslider">
-                        	<div class="buttons">
-                            	<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/side-button-left.png" />
+                        <div class="slider-chabz">
+                            <div class="buttons left">
+                                <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/side-button-left.png" />
                             </div>
                             <div class="pic-object-container">
+                                <div class="pic-object-wrapper">
+                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic1.png" /></div>
+                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic2.png" /></div>
+                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic3.png" /></div>
+                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic4.png" /></div>
+                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic5.png" /></div>
+                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic6.png" /></div>
+                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic7.png" /></div>
+                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic8.png" /></div>
+                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic6.png" /></div>
+                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic7.png" /></div>
+                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic8.png" /></div>
+                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic5.png" /></div>
+                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic6.png" /></div>
+                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic7.png" /></div>
+                                    
+                                </div>
                             </div>
-                        	<div class="buttons">
-                            	<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/side-button-right.png" />
+                            <div class="buttons right">
+                                <img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/side-button-right.png" />
                             </div>
-							
+                            
                         </div>
                     </div>
-                </div>
-<?php endwhile; endif; ?>                    	
+                </div>   
+                <?php endwhile; endif; ?>             	
             </div>
         </div>
         <div id="whats-nu-event-venues">

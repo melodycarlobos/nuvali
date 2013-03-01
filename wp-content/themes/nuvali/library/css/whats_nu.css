@@ -49,15 +49,15 @@
 	top:7px;
 }
 #whats-nu-header2 .container .buttons{
-	float:left;
-	position:relative;
-	top:23px;
+ float:left;
+ position:relative;
+ top:23px;
 }
 
 #whats-nu-header2 .container .buttonright{
-	float:right;
-	position:relative;
-	top:23px;
+ float:right;
+ position:relative;
+ top:23px;
 }
 
 #whats-nu-header2{
@@ -73,7 +73,7 @@
 	
 }
 #whats-nu-slider-container .container{
-	width:inherit;
+	width:1280px;
 	height:inherit;
 	margin:0 auto;
 }
@@ -87,12 +87,13 @@
 	height:inherit;
 }
 #whats-nu-slider-container .container .border-left{
-	float:left;
+	position:absolute;
 	height:inherit;
 }
 #whats-nu-slider-container .container .border-right{	
-	float:right;
+	position:absolute;
 	height:inherit;
+	margin-left: 899px;
 }
 #whats-nu-slider-container .container .image{
 	clear:both;
@@ -112,6 +113,7 @@
 	width:inherit;
 	height:auto;
 	padding-bottom:20px;
+	overflow:hidden;
 }
 #whats-nu-content-container .event .content{
 	width:866px;
@@ -123,26 +125,56 @@
 	text-align:center;
 	font-size:12px;
 }
-#whats-nu-content-container .event .content .imageslider{
+#whats-nu-content-container .event .content .slider-chabz{
 	width:580px;
 	height:106px;
 	margin:0 auto;
 	margin-top:15px;
 	overflow:hidden;
 }
-#whats-nu-content-container .event .content .imageslider .pic-object-container{
-	width:518px;
-	height:inherit;
+#whats-nu-content-container .event .content .slider-chabz .pic-object-container{
+	float: left;
+	width: 516px;
+	height: inherit;
+	overflow: hidden;
+	position: relative;
+}
+
+.pic-object-wrapper{
+	left:0px;
+	position:absolute;
+}
+
+.pic-object-container .pic-object{
+	width:129px;
+	height:106px;
 	overflow:hidden;
-	background-color:black;
 	float:left;
 }
-#whats-nu-content-container .event .content .imageslider .buttons{
+
+.pic-object img{
+	width:200px;
+}
+
+.pic-object:nth-child(odd){
+	background:red;
+}
+
+.pic-object:nth-child(even){
+	background:orange;
+}
+
+
+
+#whats-nu-content-container .event .content .slider-chabz .buttons{
 	width:28px;
 	height:inherit;
 	overflow:hidden;
 	float:left;
 }	
+
+
+
 #whats-nu-event-venues{
 	width:inherit;
 	height:auto;
@@ -184,4 +216,46 @@
 #whats-nu-event-venues .container .content .blend{
 	color:#286c47;
 }
+
+
+#future-dev-body {
+	width:100%;
+	float:left;
+}
+#future-dev-container{
+	width:1280px;
+	height:auto;
+	margin:0 auto;
+	position:relative;
+	margin-top:20px;
+}
+
+#future-dev-container #future-dev-container-content{
+	width:46%;
+	padding-left: 2%;
+	padding-right: 2%;
+	height:auto;
+	min-height:650px;
+	float:left;
+	margin-top:20px;
+}
+
+#future-dev-container-content h1{
+	font-size:50px;
+}
+
+#future-dev-container-content h1 span{
+	color:#276b45;
+}
 	
+#future-dev-container #future-dev-container-image {
+	width:50%;
+	height:auto;
+	float:left;
+	position:relative;
+	z-index:10;
+}
+
+#future-dev-container-image img{
+	position:relative;
+}
