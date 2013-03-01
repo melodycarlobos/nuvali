@@ -54,7 +54,7 @@
 #home-container-content #home-upper-border-left{
 	width:541px;
 	height:469px;
-	background:url('http://localhost/nuvali/wp-content/uploads/upper-left-border.png') no-repeat bottom left;
+	background:url('http://localhost/nuvali/wp-content/themes/nuvali/library/images/home/upper-left-border.png') no-repeat bottom left;
 	position:absolute;
 	margin-left: -278px;
 	margin-top: -45px;
@@ -65,7 +65,7 @@
 #home-container-content #home-upper-border-right{
 	width:492px;
 	height:488px;
-	background:url('http://localhost/nuvali/wp-content/uploads/upper-right-borders.png') no-repeat bottom left;
+	background:url('http://localhost/nuvali/wp-content/themes/nuvali/library/images/home/upper-right-borders.png') no-repeat bottom left;
 	position:absolute;
 	margin-left: 986px;
 	margin-top: -62px;

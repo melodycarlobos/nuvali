@@ -8,25 +8,14 @@
 
 		<div class="how-to-get-there">
 			<div class="content">
-
-				<h1>How to get There</h1>
+				<h1>How To Get There</h1>
 				<div class="details">
-					<p>NUVALI is located in the cities of Sta. Rosa, Calamba and the Municipality of Cabuyao in Laguna, part of the growth corridor of the CALABARZON Region.</p>
+					<?php query_posts(array(  'post_type' => 'about',  'category_name' => 'Howtogethere')); ?>
+					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+						<?php the_content(); ?>
+					<?php endwhile; endif; ?>   
 
-					<p>NUVALI can be accessed through several exits along the South Luzon Expressway (SLEX).<p>
 
-					<p>Greenfield City/Unilab/Mamplasan (secured access)<br/>
-					Sta. Rosa<br/>
-					Eton City-Greenfield<br/>
-					Silangan<br/>
-					Calamba</p>
-<!-- 
-<?php query_posts('category_name=howtogetthere'); ?>
-<?php if (have_posts()) : while (have_abouts()) : the_post(); ?>
-				<h1><?php the_title(); ?></h1>
-				<div class="details">
-<?php the_content(); ?>
-<?php endwhile; endif; ?>    -->
 
 					<div class="view-google-map">
 						<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/how_to_get_there/google-map-icon.png" width="50px" height="50px">
@@ -94,10 +83,11 @@
 					</div>
 					<div class="right">
 						<div class="right-sched">
+						<?php query_posts(array('post_type' => 'about', 'category_name' => 'Traveltime')); ?>
+						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 							<h4>Travel time from key destinations</h4>
-							<p>50 mins from Makati<br/>(approx. 40 km)</p>
-							<p>30 mins from Alabang<br/>(approx. 25 km)</p>
-							<p>15 mins from Sta. Rosa Exit<br/>(approx. 10 km)</p>
+							<?php the_content(); ?>
+							<?php endwhile; endif; ?> 
 						</div>
 					</div>
 				</div>
@@ -289,20 +279,21 @@
 				</div>
 			</div>
 		</div>
+
+
+
 		<div class="our-heritage-container">
 			<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/our_heritage/side-image.png">
             <div class="main-title"><h1>Our Heritage</h1></div><br/><br/>
-            <h4 style="color:#fff;">"Initiating a future-oriented, mixed-use metropolis, NUVALI nurtures the promise of a distinguished legacy"</h4>
-            <br/>
-            <div class="details">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nisl leo, lacinia et consectetur id, aliquam at metus. Pellentesque at est est, consectetur pellentesque nibh. Nunc condimentum orci nec lorem lacinia mattis. Sed id vestibulum velit. Nullam molestie risus sed nulla venenatis molestie. Integer a risus ipsum. Sed arcu eros, luctus ut ornare et, gravida eget nunc. Cras et enim libero. Cras sed turpis ac lorem consectetur congue. Vestibulum sed magna et justo tempus ullamcorper at sed mauris. Fusce convallis dignissim ligula sed fringilla. Sed venenatis suscipit ornare. Suspendisse hendrerit lectus nec libero suscipit condimentum.</p>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nisl leo, lacinia et consectetur id, aliquam at metus. Pellentesque at est est, consectetur pellentesque nibh. Nunc condimentum orci nec lorem lacinia mattis. Sed id vestibulum velit. Nullam molestie risus sed nulla venenatis molestie. Integer a risus ipsum. Sed arcu eros, luctus ut ornare et, gravida eget nunc. Cras et enim libero. Cras sed turpis ac lorem consectetur congue. Vestibulum sed magna et justo tempus ullamcorper at sed mauris. Fusce convallis dignissim ligula sed fringilla. Sed venenatis suscipit ornare. Suspendisse hendrerit lectus nec libero suscipit condimentum.</p>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nisl leo, lacinia et consectetur id, aliquam at metus. Pellentesque at est est, consectetur pellentesque nibh. Nunc condimentum orci nec lorem lacinia mattis. Sed id vestibulum velit. Nullam molestie risus sed nulla venenatis molestie. Integer a risus ipsum. Sed arcu eros, luctus ut ornare et, gravida eget nunc. Cras et enim libero. Cras sed turpis ac lorem consectetur congue. Vestibulum sed magna et justo tempus ullamcorper at sed mauris. Fusce convallis dignissim ligula sed fringilla. Sed venenatis suscipit ornare. Suspendisse hendrerit lectus nec libero suscipit condimentum.</p>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nisl leo, lacinia et consectetur id, aliquam at metus. Pellentesque at est est, consectetur pellentesque nibh. Nunc condimentum orci nec lorem lacinia mattis. Sed id vestibulum velit. Nullam molestie risus sed nulla venenatis molestie. Integer a risus ipsum. Sed arcu eros, luctus ut ornare et, gravida eget nunc. Cras et enim libero. Cras sed turpis ac lorem consectetur congue. Vestibulum sed magna et justo tempus ullamcorper at sed mauris. Fusce convallis dignissim ligula sed fringilla. Sed venenatis suscipit ornare. Suspendisse hendrerit lectus nec libero suscipit condimentum.</p>
-            </div>
+            <?php query_posts(array('post_type' => 'about',  'category_name' => 'OurHeritage')); ?>
+			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+	            <h4 style="color:#fff;"><?php the_title(); ?></h4>
+	            <br/>
+	            <div class="details">
+				<?php the_content(); ?>
+				<?php endwhile; endif; ?> 
+				 </div>
+			
             <img id="divider-flowers" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/our_heritage/divider-flowers.png">
 		</div>
 			

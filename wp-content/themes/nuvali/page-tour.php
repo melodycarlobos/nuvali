@@ -7,6 +7,7 @@
 				    <div id="main" class="eightcol first clearfix main-content" role="main">
 
 					   
+
 		<!-- PARKS & NATURE -->
 		<div class="parks">
 			<div class="content">
@@ -218,6 +219,8 @@
 				<img id="image-lower" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/tour/image-lower.png">
 			</div>
 		</div>
+
+		<!-- EDUCATION -->
 		<div class="education">
 			<div class="top-educ">
 				<div class="content">
@@ -250,6 +253,39 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nisl leo, lacinia et consectetur id, aliquam at metus. Pellentesque at est est, consectetur pellentesque nibh. Nunc condimentum orci nec lorem lacinia mattis. Sed id vestibulum velit. Nullam molestie risus sed nulla venenatis molestie.</p>
 				</div>
 				<img id="side-image-right" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/tour/side-image-right.png">
+			</div>
+		</div>
+
+		<!-- TRANSPORTATION -->
+		<div class="transportation">
+			<div class="transit yellow-green">
+				<div class="content">
+					<h2 class="yellow-green">Transit Around Nuvali</h2>
+					<h4 class="yellow-green">Daily Schedule<br/>(from the Terminal):<br/>7AM, 8AM, 9AM, 1PM, 5PM, 6PM</h4>
+					<h5 class="yellow-green">Fare:</h5>
+					<ul>
+						<li>
+							<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/tour/bus-thumb.png">
+							<h5 class="yellow-green">E-Jeepney: P10 Per Ride</h5>
+						</li>
+						<li>
+							<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/tour/van-thumb.png">
+							<h5 class="yellow-green">Van: P20 Per Ride</h5>
+						</li>
+						<li>
+							<img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/tour/bus2-thumb.png">
+							<h5 class="yellow-green">Bus: P25 Per Ride</h5>
+						</li>
+					</ul>
+				</div>
+				<img id="side-right-image" src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/tour/side-right-image.png">
+			</div>
+			<div class="map">
+				<div class="content">
+					<div id="left-frame"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/tour/left-frame.png"></div>
+					<div id="right-frame"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/tour/right-frame.png"></div>
+					<div id="map"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/tour/map.png"></div>
+				</div>
 			</div>
 		</div>
 			
