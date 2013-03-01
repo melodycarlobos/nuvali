@@ -20,6 +20,7 @@ $(document).ready(function(){
 		$slider_container_count = $slider_images_count / 4;
 	}else{
 		$slider_remainder = $slider_images_count % 4;
+		$slider_container_count +=1;
 		$slider_container_count = parseInt($slider_images_count / 4);
 	}
 
@@ -33,7 +34,7 @@ $(document).ready(function(){
 			},1000);
 		}else if(($slider_container_index === ($slider_container_count-1))&&($slider_remainder > 0)){
 			console.log("DAAN KA D2!!!");
-			$slider_container_index = 0;
+			$slider_container_index += 1;
 			$slider_current_position += (129 * $slider_remainder);
 
 			$slider_wrapper.animate({
@@ -47,12 +48,36 @@ $(document).ready(function(){
 				left: ['-' + $slider_current_position + 'px', 'swing']
 			},1000);
 		}
-		console.log('slider index': + $slider_container_index)
+		console.log($slider_container_index);
+		console.log($slider_current_position);
 	});
 
 	$('.slider').find('.buttons.left').click(function(){
-		$slider_wrapper.animate({
-			left: ['0px', 'swing']
-		},1000);
+		// $slider_wrapper.animate({
+		// 	left: ['0px', 'swing']
+		// },1000);
+		if(($slider_container_index < ($slider_container_count))&&($slider_container_index > 0)){
+			$slider_container_index -= 1;
+			$slider_current_position -= 516;
+
+			$slider_wrapper.animate({
+				left: ['-' + $slider_current_position + 'px', 'swing']
+			},1000);
+
+		}else if(($slider_container_index === ($slider_container_count))&&($slider_remainder > 0)){
+			$slider_container_index = $slider_container_count-1;
+			$slider_current_position = $slider_current_position - ($slider_remainder * 129);
+			console.log('current_position' + $slider_current_position);
+			$slider_wrapper.animate({
+				left: ['-' + $slider_current_position+'px', 'swing']
+			},1000);
+		}else{
+
+		}
+		console.log('remainder' + $slider_remainder);
+		console.log($slider_container_count);
+		console.log($slider_container_index);
+		console.log($slider_current_position);
+
 	});
 });
