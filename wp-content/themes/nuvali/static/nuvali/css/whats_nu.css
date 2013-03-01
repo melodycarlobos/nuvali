@@ -66,7 +66,7 @@
 	
 }
 #whats-nu-slider-container .container{
-	width:inherit;
+	width:1280px;
 	height:inherit;
 	margin:0 auto;
 }
@@ -80,12 +80,13 @@
 	height:inherit;
 }
 #whats-nu-slider-container .container .border-left{
-	float:left;
+	position:absolute;
 	height:inherit;
 }
 #whats-nu-slider-container .container .border-right{	
-	float:right;
+	position:absolute;
 	height:inherit;
+	margin-left: 899px;
 }
 #whats-nu-slider-container .container .image{
 	clear:both;
@@ -206,10 +207,16 @@
 	color:#286c47;
 }
 
+
+#future-dev-body {
+	width:100%;
+	float:left;
+}
 #future-dev-container{
 	width:1280px;
 	height:auto;
-	float:left;
+	margin:0 auto;
+	position:relative;
 	margin-top:20px;
 }
 
