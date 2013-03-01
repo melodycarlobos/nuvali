@@ -123,6 +123,7 @@
 	margin:0 auto;
 	display:block;
 	position:relative;
+	overflow:hidden;
 }
 
 .nu_living-info-slider .slider-body{
