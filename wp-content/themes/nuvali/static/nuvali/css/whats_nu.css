@@ -66,7 +66,7 @@
 	
 }
 #whats-nu-slider-container .container{
-	width:inherit;
+	width:1280px;
 	height:inherit;
 	margin:0 auto;
 }
@@ -80,12 +80,13 @@
 	height:inherit;
 }
 #whats-nu-slider-container .container .border-left{
-	float:left;
+	position:absolute;
 	height:inherit;
 }
 #whats-nu-slider-container .container .border-right{	
-	float:right;
+	position:absolute;
 	height:inherit;
+	margin-left: 899px;
 }
 #whats-nu-slider-container .container .image{
 	clear:both;
@@ -105,6 +106,7 @@
 	width:inherit;
 	height:auto;
 	padding-bottom:20px;
+	overflow:hidden;
 }
 #whats-nu-content-container .event .content{
 	width:866px;
@@ -124,12 +126,39 @@
 	overflow:hidden;
 }
 #whats-nu-content-container .event .content .slider .pic-object-container{
-	width:518px;
-	height:inherit;
+	float: left;
+	width: 516px;
+	height: inherit;
+	overflow: hidden;
+	position: relative;
+}
+
+.pic-object-wrapper{
+	left:0px;
+	position:absolute;
+}
+
+.pic-object-container .pic-object{
+	width:129px;
+	height:106px;
 	overflow:hidden;
-	background-color:black;
 	float:left;
 }
+
+.pic-object img{
+	width:200px;
+}
+
+.pic-object:nth-child(odd){
+	background:red;
+}
+
+.pic-object:nth-child(even){
+	background:orange;
+}
+
+
+
 #whats-nu-content-container .event .content .slider .buttons{
 	width:28px;
 	height:inherit;
@@ -178,10 +207,16 @@
 	color:#286c47;
 }
 
+
+#future-dev-body {
+	width:100%;
+	float:left;
+}
 #future-dev-container{
 	width:1280px;
 	height:auto;
-	float:left;
+	margin:0 auto;
+	position:relative;
 	margin-top:20px;
 }
 
@@ -190,7 +225,7 @@
 	padding-left: 2%;
 	padding-right: 2%;
 	height:auto;
-	min-height:400px;
+	min-height:650px;
 	float:left;
 	margin-top:20px;
 }
@@ -213,6 +248,4 @@
 
 #future-dev-container-image img{
 	position:relative;
-	left: -42px;
-	top: -106px;
 }

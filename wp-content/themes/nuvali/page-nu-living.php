@@ -9,18 +9,15 @@
 		<div id="nu_living-container-content">
 			<div id="nu_living-content-left">
 				<div class="nu_living-content">
-					<h1>RESIDENTIAL</h1>
-					<h4>Move in to NUVALI <br/> and start your new life today.</h4>
+					
 
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et nisl sed justo imperdiet tincidunt nec quis ligula. Donec non erat ut dui ultrices pretium. Aliquam libero tortor, condimentum vitae pulvinar ut, pulvinar in nunc. Pellentesque eu magna sed justo venenatis pellentesque vitae ut metus
-					</p>
-					<p>
-						Etiam mauris massa, sagittis eu tincidunt vel, tempor nec nibh. Fusce semper, elit ut interdum lobortis, felis sapien scelerisque diam, in malesuada lectus felis ut dui. Fusce sed massa vel felis ultricies rutrum. Ut suscipit, lectus consectetur tempor blandit, velit felis sollicitudin lacus, vitae ullamcorper enim ante id augue. 
-					</p>
-					<p>
-						Fusce nunc metus, ultricies at rhoncus nec, tincidunt volutpat est. Suspendisse pharetra eros eu felis tincidunt eu condimentum nisi posuere. Phasellus pellentesque commodo rutrum. Nullam erat leo, vestibulum in tempus ut, aliquam non arcu. Aliquam sapien lorem, iaculis ut scelerisque quis, placerat in velit. 
-					</p>
+					<h1><?php echo get_cat_name(get_category_by_slug('residential') -> term_id); ?></h1>
+					<?php query_posts(array('post_type' => 'nuliving',  'category_name' => 'Residential')); ?>
+					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+			        <h4><?php the_title(); ?></h4>
+					<?php the_content(); ?>
+					<?php endwhile; endif; ?> 
+					
 				</div>
 			</div>
 			<div id="nu_living-content-right">
