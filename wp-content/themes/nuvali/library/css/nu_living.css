@@ -182,7 +182,7 @@
 .slider-body .caption h2{
 	color:white;
 	margin:0;
-	font-size:60px;
+	font-size:44px;
 	margin-bottom:5px;
 }
 
@@ -201,12 +201,12 @@
 }
 
 #nu_living-content2 .nu_living-info:nth-child(odd) .caption{
-	left:20px;
+	left:0px;
 	top:40px;
 }
 
 #nu_living-content2 .nu_living-info:nth-child(even) .caption{
-	left:1000px;
+	left:950px;
 	top:40px;
 }
 

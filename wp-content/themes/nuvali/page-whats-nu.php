@@ -107,21 +107,21 @@
         </div>
         <div id="whats-nu-event-venues">
         	<?php query_posts('category_name=event_venues'); ?>
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-            <div class="container">
-                <div class="image-container">
-                    <img src="http://placehold.it/640x500">
-                </div>
-                <div class="content">
-                    <h1>EVENT <span class="blend">VENUES</span></h1>
-                    <h2><?php the_title(); ?></h2>
-                    <p>
-                        <?php the_content(); ?>
-                    </p>
-                </div>
-            </div>
+            <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                        <div class="container">
+                            <div class="image-container">
+                                <img src="http://placehold.it/640x500">
+                            </div>
+                            <div class="content">
+                                <h1>EVENT <span class="blend">VENUES</span></h1>
+                                <h2><?php the_title(); ?></h2>
+                                <p>
+                                    <?php the_content(); ?>
+                                </p>
+                            </div>
+                        </div>
 
-<?php endwhile; endif; ?>       
+            <?php endwhile; endif; ?>       
 
         </div>
        
