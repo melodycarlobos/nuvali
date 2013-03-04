@@ -51,6 +51,8 @@
 <?php } elseif ( is_page('whats-nu') ) { ?>
     <link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/themes/nuvali/library/css/whats_nu.css">
 <script src="http://localhost/nuvali/wp-content/themes/nuvali/library/js/jquery.diyslider.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://localhost/nuvali/wp-content/themes/nuvali/library/js/jquery.lightbox-0.5.js"></script>
+<link rel="stylesheet" type="text/css" href="http://localhost/nuvali/wp-content/themes/nuvali/library/css/jquery.lightbox-0.5.css" media="screen" />
 <script src="http://localhost/nuvali/wp-content/themes/nuvali/library/js/whatsnu.js" type="text/javascript"></script>
 
 <?php } elseif ( is_page('dine-shop') ) { ?>
