@@ -64,8 +64,8 @@ span.dark-green,
 	background: #fff;
 	-webkit-box-shadow: 0px -3px 12px 0px #000;
 	box-shadow: 0px -3px 12px 0px #000;
-	z-index: 1;
-	position: relative;
+	z-index: 5;
+	position: fixed;
 }
 .header,
 .sub-menu-wrapper {
