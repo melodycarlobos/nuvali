@@ -87,3 +87,174 @@
 	margin-top: -22px;
 }
 /* -- end of ABOUT -- */
+
+/* -- WHY NUVALI -- */
+.why {
+	/*height: 2400px;*/
+}
+.why h1 {
+	font-size: 58px;
+}
+
+/* -- BELIEVE -- */
+.believe {
+	height: 545px;
+}
+.believe .content {
+	width: 40%;
+	float: left;
+	margin-top: 280px;
+	margin-left: 8%;
+}
+.believe img#image-top {
+	float: right;
+	display: inline;
+	position: absolute;
+	right: 0;
+	margin-top: 25px;
+}
+.believe h4 {
+	font-size: 23px;
+	margin-top: -48px;
+}
+
+/* -- VISION -- */
+.vision {
+	height: 532px;
+	background: #67a83d;
+	margin-top: 60px;
+}
+.vision .content {
+	width: 40%;
+	float: right;
+	margin-left: 8%;
+	position: absolute;
+	right: 0;
+	z-index: 2;
+	margin-right: 44px;
+	height: 532px;
+	overflow: hidden;
+}
+.vision .content .content1 {
+	height: 20%;
+}
+.vision .content .content1 h4,
+.vision .content .content2 h4,
+.communities .content h4,
+.evoliving .top h4 {
+	font-size: 24px;
+}
+.vision .content .content1 h4 {
+	margin-top: 5px;
+}
+.vision .content .content2 h4 {
+	width: 80%;
+	margin-top: 100px;
+	margin-left: 74px;
+	float: left;
+}
+.vision .content .content2 {
+	background: #e99b00;
+	height: 500px;
+	width: 100%;
+	border-radius: 50%;
+	bottom: 0;
+	margin-top: 100px;
+}
+.vision #image-top-mid-1 {
+	float: left;
+	display: inline;
+	left: 0;
+	z-index: 2;
+	position: relative;
+}
+.vision #image-top-mid-2 {
+	z-index: 1;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	margin-top: 184px;
+}
+.vision h1 {
+	text-align: center;
+	margin-left: 8%;
+	margin-top: -54px;
+	float: left;
+	margin-bottom: -8px;
+}
+
+/* -- COMMUNITIES -- */
+.communities {
+	height: 500px;
+}
+.communities .content {
+	width: 40%;
+	float: left;
+	margin-left: 8%;
+}
+.communities #image-middle {
+	float: right;
+	display: inline;
+	position: absolute;
+	right: 0;
+	margin-top: -25px;
+	z-index: 2;
+}
+
+/* -- EVO LIVING --*/
+.evoliving {
+	height: 980px;
+	margin-top: 50px;
+}
+.evoliving .top {
+	height: 645px;
+	width: 80%;
+	margin-left: 8%;
+}
+.evoliving .top,
+.evoliving .bottom {
+	float: left;
+}
+.evoliving .top h1 {
+	margin-top: 0;
+	margin-bottom: 9;
+}
+.evoliving #image-bottom {
+	float: left;
+	display: inline;
+	position: absolute;
+	left: 0;
+	margin-top: 108px;
+}
+.evoliving .top h4 {
+	float: right;
+	margin-top: -60px;
+}
+.evoliving .bottom {
+	height: 328px;
+	width: 100%;
+	margin-top: -40px;
+}
+.evoliving .bottom div:first-child {
+	vertical-align: top;
+	width: 740px;
+	margin: 0 auto;
+	display: block;
+}
+.evoliving .bottom div:first-child h3 {
+	display: inline;
+	margin-top: 60px;
+	float: left;
+}
+.evoliving .bottom div:last-child {
+	float: right;
+	margin-right: 160px;
+}
+.evoliving .bottom div:last-child h4 {
+	text-transform: uppercase;
+}
+.evoliving #image-bottom-logo {
+	display: inline;
+	vertical-align: top;
+	margin: 0 auto;
+}
