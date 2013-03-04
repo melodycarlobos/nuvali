@@ -233,11 +233,13 @@
 
 #nu_living-content2 .nu_living-info:nth-child(odd) .buttons-container{
 	left: 570px;
-	top: 230px;
+	top: 324px;
+
 }
 #nu_living-content2 .nu_living-info:nth-child(even) .buttons-container{
 	left: 420px;
-	top: 230px;	
+	top: 288px;
+
 }
 
 #nu_living-content2 .nu_living-info	.nu_living-info-content{

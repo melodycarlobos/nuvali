@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+
 			
 			<div id="content" class="main-content what-nu-content">
 			
@@ -78,20 +79,36 @@
                             </div>
                             <div class="pic-object-container">
                                 <div class="pic-object-wrapper">
-                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic1.png" /></div>
-                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic2.png" /></div>
-                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic3.png" /></div>
-                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic4.png" /></div>
-                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic5.png" /></div>
-                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic6.png" /></div>
-                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic7.png" /></div>
-                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic8.png" /></div>
-                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic6.png" /></div>
-                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic7.png" /></div>
-                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic8.png" /></div>
-                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic5.png" /></div>
-                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic6.png" /></div>
-                                    <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic7.png" /></div>
+                                    <a href="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic1.png">
+                                        <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic1.png" /></div>
+                                    </a>
+                                    <a href="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic2.png">
+                                        <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic2.png" /></div>
+                                    </a>
+                                    <a href="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic3.png">
+                                        <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic3.png" /></div>
+                                    </a>
+                                    <a href="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic4.png">
+                                        <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic4.png" /></div>
+                                    </a>
+                                    <a href="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic5.png">
+                                        <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic5.png" /></div>
+                                    </a>
+                                    <a href="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic6.png">
+                                        <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic6.png" /></div>
+                                    </a>
+                                    <a href="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic7.png">
+                                        <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic7.png" /></div>
+                                    </a>
+                                    <a href="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic8.png">
+                                        <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic8.png" /></div>
+                                    </a>
+                                    <a href="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic1.png">
+                                        <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic1.png" /></div>
+                                    </a>
+                                    <a href="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic2.png">
+                                        <div class="pic-object"><img src="http://localhost/nuvali/wp-content/themes/nuvali/library/images/whatsnu/sample-pic2.png" /></div>
+                                    </a>
                                     
                                 </div>
                             </div>

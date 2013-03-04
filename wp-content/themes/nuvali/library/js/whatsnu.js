@@ -151,4 +151,13 @@ $(document).ready(function() {
     
     /*--- END CHABZ CODE --- */
 
+
+    /*--- Lightbox --- */
+    $(document).ready(function() {
+	    $('div.pic-object-wrapper').each(function(){
+	        $(this).find('a').lightBox();                     
+	     });    
+	});
+
+    /*--- end code--- */
 });
