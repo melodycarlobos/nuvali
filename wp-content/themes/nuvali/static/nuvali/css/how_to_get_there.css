@@ -1,6 +1,6 @@
 .how-to-get-there {
 	background: url('../img/how_to_get_there/bg.png') repeat-x 160px;
-	background-position: 0 408px;
+	background-position: 0 555px;
 	display: block;
 	overflow-x: hidden;
 }
@@ -10,6 +10,7 @@
 	margin-left: 100px;
 	width: 92%;
 	z-index: -1;
+	margin-top: 150px;
 }
 .how-to-get-there .title {
 	margin-left: 68px;
@@ -32,7 +33,7 @@
 	vertical-align: middle;
 }
 .how-to-get-there img#side-image {
-	margin-top: -40px;
+	margin-top: 100px;
 	float: right;
 	display: inline;
 	z-index: 0;
