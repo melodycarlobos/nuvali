@@ -1,3 +1,10 @@
+/*@font-face
+{
+	font-family: Trade Gothic LT Bold;
+	src: url('../font/TradeGothic LT Bold/Trade Gothic LT Bold.ttf'),
+    	url('../font//TradeGothic LT BoldTrade Gothic LT Bold.ttf'); /* IE9 */
+
+
 /* --- GENERAL --- */
 body{
 	font-size: 13px; 

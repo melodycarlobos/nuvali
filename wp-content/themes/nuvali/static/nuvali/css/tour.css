@@ -13,6 +13,9 @@
 	width: 44%;
 	margin-left: 80px;
 }
+.parks .content {
+	margin-top: 150px;
+}
 .parks #side-image-upper,
 .biking #side-image-mid,
 .sanctuary #side-image-lower-mid,
@@ -25,6 +28,7 @@
 }
 .parks #side-image-upper {
 	z-index: 1;
+	margin-top: 126px;
 }
 .parks .nature {
 	width: 90%;
@@ -68,6 +72,11 @@
 /*--- end of PARKS & NATURE ---*/
 
 /*--- SPORTS --*/
+.sports,
+.education,
+.transportation {
+	margin-top: 150px;
+}
 .top-sports {
 	height: 488px;
 }
