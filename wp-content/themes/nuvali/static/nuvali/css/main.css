@@ -119,19 +119,36 @@ span.dark-green,
 	text-transform: uppercase;
 	font-weight: bold;
 }
+input[type="text"]:focus {
+	outline: none;
+	border: 1px solid #dbf8c8;
+}
+.search-wrapper {
+	display: inline-block;
+	margin-bottom: 0;
+	vertical-align: middle;
+}
 .search {
 	background: #f2f2f2;
-	background-image: url('../img/search.png'); 
+	/*background-image: url('../img/search.png'); */
   	background-position:right; 
   	background-repeat:no-repeat; 
 	-webkit-border-radius: 13px;
-	border-radius: 13px;
-	padding: 6px 6px 6px 10px;
+    border-radius: 13px;
+	padding: 6px 32px 6px 10px;
 	border: none;
 	color: #006a3b;
+	display: inline-block;
 }
+.search-wrapper span {
+	display: inline-block;
+	cursor: pointer;
+	margin-left: -32px;
+}
+.search-wrapper a img#search-image,
 .social-network {
-	float:right;
+	float: right;
+
 }
 .social-network img,
 .fb-like span {
