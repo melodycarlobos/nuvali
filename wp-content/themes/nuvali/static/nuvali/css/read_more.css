@@ -1,0 +1,79 @@
+.content {
+	margin-left: 35px;
+	height: 1500px;
+}
+.content-left {
+	width:870px;
+	background: #fff;
+	float: left;
+	height: 1500px;
+	overflow-y: scroll;
+}
+.content-left p {
+	padding-right: 10px;
+}
+.content-right {
+	width:435px;
+	float: right;
+	background: #276b46;
+	height: 100%;
+}
+.content-right .top {
+	height: auto;
+	border-bottom: 3px solid #fff;
+}
+.content-right .inner-content {
+	padding: 20px;
+}
+.circle {
+	background: #67a83d;
+	border-radius: 50%;
+	-webkit-box-shadow: 0px 8px 8px 0px #246640;
+	box-shadow: 0px 8px 8px 0px #246640;
+}
+.bigger {
+	width: 70px;
+	height: 70px;
+	display:table-cell;
+}
+.read-more-link {
+	text-align:center;
+	color: white;
+	font-size: 10px;
+	margin-top: 6px;
+	width: 50px;
+	height: 40px;
+	padding-top: 10px;
+}
+.read-more-link:hover {
+	cursor: pointer;
+}
+.newsletter {
+	text-transform: uppercase;
+	display:table-cell;
+	vertical-align: bottom;
+	padding-left:10px;
+}
+.subscribe {
+	margin: 0 auto;
+	width: 336px;
+}
+.subscribe input{
+	padding:15px;
+	border: none;
+}
+.subscribe input[type="button"] {
+	color: #fff;
+	margin-left: -6px;
+	background: #33a826;
+	cursor: pointer;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.subscribe-text {
+	width: 312px;
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
