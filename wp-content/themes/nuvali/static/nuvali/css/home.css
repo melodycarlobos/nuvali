@@ -170,18 +170,16 @@
 	height:80px;
 	border-radius:50%;
 	background:#006a3b;
-
 	float:left;
 }
 
-#readmore-circle div{
+#readmore-circle div a{
 	font-weight:bold;
 	color:white;
 	margin:0 auto;
 	margin-left:20px;
 	margin-top:22px;
 	display:block;
-
 }
 
 #home-content2-left #content2-two{
@@ -189,8 +187,6 @@
 	height:auto;
 	float:left;
 }
-
-
 #content2-two h3{
 	margin-top:10px;
 	margin-bottom:0;
